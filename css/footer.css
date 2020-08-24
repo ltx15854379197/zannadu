@@ -1,0 +1,226 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+footer{
+	min-width: 1000px;
+	height: 700px;
+	background: url(../imgs/common/footer_bg.png)no-repeat, linear-gradient(-180deg, rgba(124, 202, 234, 0.90) 0%, rgba(198, 232, 246, 0.46) 96%);
+}
+/*footer section*/
+
+footer .footer-padding a{
+	color: #7C878E;
+}
+footer .footer-padding a:hover{
+	color: #AF5576;
+	text-decoration:none
+
+}
+footer .footer-padding{
+	padding-top: 60px;
+	width: 1000px;
+	height: 230px;
+	margin: auto;
+	/*display: flex;
+	justify-content: space-between*/
+}
+footer ul{
+	list-style: none;
+	float: left;
+	margin-left: 80px;
+	color: #7C878E
+}
+footer .footer-padding ul .color-gray{
+	color: #999;
+}
+footer h4{
+	font-weight: bold;
+	color:black;
+}
+footer .footer-padding ul li{
+	margin: 3px
+}
+footer .no-bullets{
+	margin-left: 110px;
+}
+footer .no-bullets a{
+	margin-left:40px;
+	font-size: 18px
+}
+footer .color-green{
+	color: #00C40C;
+}
+footer .icon-wechat{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-image: url(../imgs/common/wps.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	position: relative;
+	top: 5px;
+}
+
+footer .cloud-login{
+	margin-top: 100px;
+	margin-left: 50px;
+	width: 1000px;
+	margin: auto;
+
+}
+footer .cprite{
+	margin-top: 50px;
+	margin-left: 50px;
+}
+footer .cloud-login .weibo a{
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+
+/*	border: 2px solid red;
+*/	background-image: url(../imgs/common/media-icon.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+footer .cloud-login .youku a{
+	margin-left: 20px;
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	background-image: url(../imgs/common/media-icon.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position: -51px 0;
+}
+footer .cloud-login .tencent a{
+	margin-left: 20px;
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	background-image: url(../imgs/common/media-icon.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position: -102px 0;
+}
+footer .row{
+	margin: 10px 0 10px 35px;
+	min-width: 1000px;
+}
+footer .row .col-xs-3{
+	color: #7C878E;
+}
+footer .row .col-xs-3 a{
+	font-size: 16px;
+	color: #CB5977;
+}
+footer .qr-zanaducn{
+	margin: auto;
+	width: 150px;
+	height: 150px;
+	background-image: url(../imgs/common/zanaducn.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	position: relative;
+	top: -50px;
+	z-index: 3;
+}
+footer .cloud-mask{
+	width: 100%;
+	height: 300px;
+	background-image: url(../imgs/common/cloud-mask.png);
+	background-repeat:no-repeat;
+	background-size:contain;
+	position: relative;
+	top: -110px;
+
+}
+footer .text-center{
+	margin: auto;
+	padding-top: 20px;
+	height: 220px;
+	background-color: #fff;
+	position: relative;
+	top: -320px;
+}
+footer .text-center a{
+	color: black;
+}
+footer .text-center span{
+	display: inline-block;
+	width: 19px;
+	height: 19px;
+	background-image: url(../imgs/common/police.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+footer .vertical-black{
+	margin: auto;
+	width: 150px;
+	height: 150px;
+	background-image: url(../imgs/common/vertical-black.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+@keyframes ani{
+	0%{
+	position: relative;
+	left: 0px;
+	}
+	100%{
+	position: relative;
+	left: -300px;
+	}
+}
+footer .footer{
+	width: 100%;
+	height: 300px;
+	background-image: url(../imgs/common/move-cloud-1.png);
+	background-repeat:no-repeat;
+	position: relative;
+	top: -300px;
+	z-index: 2;
+	animation-name:ani;
+      animation-duration:4000ms;
+      animation-timing-function:linear;
+      animation-delay:1s;
+      animation-iteration-count:infinite;
+      animation-direction:alternate;
+}
+/*返回顶部*/
+.goTopBtnBox{
+	width: 100%;
+	height: 50px;
+	position:relative;
+	top:0px;
+	overflow: hidden;
+}
+.goTopBtn{
+	height: 50px;
+	margin: auto;
+	width: 100px;
+	height: 100px;
+	position:relative;
+	border-radius: 50px;
+	line-height: 70px;
+	text-align: center;
+	background-color:#E5F2F8;
+	color: #8ca6c1;
+	z-index: 1;
+}
+.goTopBtn::before{
+	content: '';
+	width: 8px;
+	height: 8px;
+    display: block;
+    position: absolute;
+    top: 12px;
+    left: 40px;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid #8ca6c1;
+}
+
+
+

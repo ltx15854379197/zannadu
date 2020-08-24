@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="plugin/bootstrap/css/bootstrap.css">
+	<script src="plugin/jquery-3.5.1.js"></script>
+	<script src="plugin/jquery-ui-1.12.1/jquery-ui.js"></script>
+	<script src="plugin/datepicker-zh-cn.js"></script>
+	<link rel="stylesheet" href="plugin/jquery-ui-1.12.1/jquery-ui.css">
+	<!-- swiper引入文件 -->
+	<link rel="stylesheet" href="plugin/swiper-bundle.css">
+	<script src="plugin/swiper-bundle.js"></script>
+	<script src="plugin/bootstrap/js/bootstrap.js"></script>
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/head.css">
+	<link rel="stylesheet" href="css/index.css">
+	<!-- 引入尾部css -->
+</head>
+<body>
+	<header>
+		<div class="headbgcbox">
+			<div class="swiper-container">
+	    	<div class="swiper-wrapper">
+			    <a  href="http://www.baidu.com" class="swiper-slide photo1"></a>
+			    <a  href="" class="swiper-slide photo2"></a>
+			    <a  href="" class="swiper-slide photo3"></a>
+			    <a  href="" class="swiper-slide photo4"></a>
+			    <a  href="" class="swiper-slide photo5"></a>
+			    <a  href="" class="swiper-slide photo6"></a>
+			    <a  href="" class="swiper-slide photo7"></a>
+	    	</div> 
+	    	<!-- Add Pagination -->
+	    	<div class="swiper-pagination "></div>
+	    	<!-- Add Arrows -->
+	    	<div class="swiper-button-next nextto rightto"></div>
+	    	<div class="swiper-button-prev nextto leftto"></div>
+	  		</div>
+  		</div>
+  		<div class="headbox">
+		<div class="headbgc">
+			<div class="headlogo">
+			</div>
+			<div class="input-group">
+      			<input type="text" class="form-control placetxt" placeholder="目的地/酒店/邮轮">
+      			<input type="text" class="form-control dateinput" id="datepicker" placeholder="入住日期">
+      			<input type="text" class="form-control dateinput" id="datepicker" placeholder="退房日期">
+      			<button type="submit" class="btn btn-default btn-lg headsearch">
+      			<span class="glyphicon glyphicon-search lg" style="color:white"></span>
+      			<span class="date1"></span>
+      			<span class="date2"></span>
+   			 </div>
+		</div>
+		</div>
+		<nav class="navto">
+		<div class="navbox">
+			<div class="birdlogo"></div>
+			<div class="barbox">
+			<ul class="bar">
+			<li><a href="" class="destination">目的地</a>
+				<div class="map">
+					<div class="area">
+						<h4>热门目的地</h4>
+						<hr>
+						<div class="hotplace">
+							<a href="">日本</a>
+							<a href="">东非</a>
+							<a href="">南部非洲</a>
+							<a href="">英国</a> 
+							<a href="">北欧</a>
+							<a href="">马尔代夫</a>
+							<a href="">泰国</a>
+							<a href="">印度尼西亚</a>
+							<a href="">斐济</a>
+							<a href="">中东与北非</a>
+							<a href="">东南亚与南亚</a>
+							<a href="">澳大利亚</a>
+							<a href="">新西兰</a>
+							<a href="">南极与北极</a>
+							<a href="">云南</a>
+							<a href="">浙江</a>
+							<a href="">海南</a>
+						</div>
+					</div>
+					<div class="area">
+						<h4>东亚</h4>
+						<hr>
+						<div class="hotplace">
+							<a href="">日本</a>
+							<a href="">中国</a>
+							<a href="">韩国</a>
+						</div>
+					</div>
+					<div class="area">
+						<h4>拉丁美洲</h4>
+						<hr>
+						<div class="hotplace">
+							<a href="">阿根廷</a>
+							<a href="">巴西</a>
+							<a href="">玻璃为多</a>
+							<a href="">秘鲁</a> 
+							<a href="">墨西哥</a>
+						</div>
+					</div>
+					<div class="area">
+						<h4>拉丁美洲</h4>
+						<hr>
+						<div class="hotplace">
+							<a href="">阿根廷</a>
+							<a href="">巴西</a>
+							<a href="">玻璃为多</a>
+							<a href="">秘鲁</a> 
+							<a href="">墨西哥</a>
+						</div>
+					</div>
+					<div class="area">
+						<h4>西欧与地中海</h4>
+						<hr>
+						<div class="hotplace">
+							<a href="">阿根廷</a>
+							<a href="">巴西</a>
+							<a href="">玻璃为多</a>
+							<a href="">秘鲁</a> 
+							<a href="">墨西哥</a>
+						</div>
+					</div>
+					<div class="area">
+						<h4>东欧与俄罗斯</h4>
+						<hr>
+						<div class="hotplace">
+							<a href="">阿根廷</a>
+							<a href="">巴西</a>
+							<a href="">玻璃为多</a>
+							<a href="">秘鲁</a> 
+							<a href="">墨西哥</a>
+						</div>
+					</div>
+					<div class="area">
+						<h4>大洋洲</h4>
+						<hr>
+						<div class="hotplace">
+							<a href="">阿根廷</a>
+							<a href="">巴西</a>
+							<a href="">玻璃为多</a>
+							<a href="">秘鲁</a> 
+							<a href="">墨西哥</a>
+						</div>
+					</div>
+					<div class="area">
+						<h4>东南亚与地中华</h4>
+						<hr>
+						<div class="hotplace">
+							<a href="">阿根廷</a>
+							<a href="">巴西</a>
+							<a href="">玻璃为多</a>
+							<a href="">秘鲁</a> 
+							<a href="">墨西哥</a>
+						</div>
+					</div>
+					<div class="area">
+						<h4>东欧与俄罗斯</h4>
+						<hr>
+						<div class="hotplace">
+							<a href="">阿根廷</a>
+							<a href="">巴西</a>
+							<a href="">玻璃为多</a>
+							<a href="">秘鲁</a> 
+							<a href="">墨西哥</a>
+						</div>
+					</div>
+					<div class="area">
+						<h4>大洋洲</h4>
+						<hr>
+						<div class="hotplace">
+							<a href="">阿根廷</a>
+							<a href="">巴西</a>
+							<a href="">玻璃为多</a>
+							<a href="">秘鲁</a> 
+							<a href="">墨西哥</a>
+						</div>
+					</div>
+					<div class="area">
+						<h4>东南亚与南亚</h4>
+						<hr>
+						<div class="hotplace">
+							<a href="">阿根廷</a>
+							<a href="">巴西</a>
+							<a href="">玻璃为多</a>
+							<a href="">秘鲁</a> 
+							<a href="">墨西哥</a>
+						</div>
+					</div>
+					<div class="area">
+						<h4>北美</h4>
+						<hr>
+						<div class="hotplace">
+							<a href="">阿根廷</a>
+							<a href="">巴西</a>
+							<a href="">玻璃为多</a>
+							<a href="">秘鲁</a> 
+							<a href="">墨西哥</a>
+						</div>
+					</div>
+					<div class="area">
+						<h4>东非</h4>
+						<hr>
+						<div class="hotplace">
+							<a href="">阿根廷</a>
+							<a href="">巴西</a>
+							<a href="">玻璃为多</a>
+							<a href="">秘鲁</a> 
+							<a href="">墨西哥</a>
+						</div>
+					</div>
+					<div class="area"></div>
+					<div class="area"></div>
+					<div class="area"></div>
+				</div>
+			</li>
+			<li><a href="" class="route">预定行程</a>
+				<div class="mapplace">
+					<div>
+					<h3>预定行程</h3>
+					<div class="project">
+						<div class="projectimg img1">
+							<div class="projecttext"><a href="">探索世界</a></div>
+						</div>
+						<div class="projectimg img2">
+							<div class="projecttext"><a href="">海外自由行</a></div>
+						</div>
+						<div class="projectimg img3">
+							<div class="projecttext"><a href="">轻奢小团</a></div>
+						</div>
+						<div class="projectimg img4">
+							<div class="projecttext"><a href="">大航海时代</a></div>
+						</div>
+						<div class="projectimg img5">
+							<div class="projecttext"><a href="">精品别墅</a></div>
+						</div>
+						<div class="projectimg img6">
+							<div class="projecttext"><a href="">精选酒店</a></div>
+						</div>
+						<div class="projectimg img7">
+							<div class="projecttext"><a href="">国内短假</a></div>
+						</div>
+						<div class="projectimg img8">
+							<div class="projecttext"><a href="">私人定制</a></div>
+						</div>
+					</div>
+				</div>
+					<div class="phone"></div>
+				</div>
+			</li>
+			<li><a href="">折扣</a></li>
+			<li><a href="">私人定制</a></li>
+			<li><a href="">活动</a></li>
+			</ul>
+		</div>
+		<div class="navsearch">
+			<input type="text" class="form-control searchbox" placeholder="目的地/酒店/邮轮">
+      			<button type="submit" class="btn btn-default btn-lg headsearch">
+      			<span class="glyphicon glyphicon-search" style="color:red"></span>
+		</div>
+		<div class="puton">
+			<a href="">登录</a>
+			<a href="">注册</a>
+		</div>
+		</div>
+		</nav>
+  	</header>
+  	<div class="clearfix"></div>
+  	<section>
+  		<div class="section1">
+  		<div class="sectionbox">
+  			<div class="tripbox">
+  				<div class="propellingbox">
+  					<div class="propellingText">品介优选 Featured Products</div>
+  					<a class="propellingProducts" href="">
+  						<span class="picture"></span>
+  					 	 <span class="text">更多推荐产品</span>
+  					</a>
+  				</div>
+  				<div class="examplebox bg-image-clouds section-padding">
+  					<div class="container cms-section">
+  					<!-- 第一行 -->
+						<div class="row firstRow">
+							<div class="col-xs-4">
+								<a href="">
+									<div class="thumbnail">
+								     	<img src="./imgs/index/trip1.jpg" alt="...">
+								     	<div class="whitebar">
+								     	</div>
+								     	<div class="caption">
+								        	<p title="绍兴兰亭安麓酒店限时6折抢购-- 1晚/2晚钜惠">绍兴兰亭安麓酒店限时6折抢购-- 1晚/2晚钜惠</p>
+								     	 </div>
+								    </div>	
+							    </a>
+							</div>
+							<div class="col-xs-4">
+								<a href="">
+									<div class="thumbnail">
+								     	<img src="./imgs/index/trip2.jpg" alt="...">
+								     	<div class="whitebar">
+								     	</div>
+								     	<div class="caption">
+								        	<p title="罗莱夏朵杭州湖边邮酒店--限时5折抢购,石库门]建筑感受民国风情">罗莱夏朵杭州湖边邮酒店--限时5折抢购,石库门]建筑感受民国风情</p>
+								     	 </div>
+								    </div>
+							    </a>
+							</div>
+							<div class="col-xs-4">
+								<a href="">
+									<div class="thumbnail">
+								     	<img src="./imgs/index/trip3.jpg" alt="...">
+								     	<div class="whitebar">
+								     	</div>
+								     	<div class="caption">
+								        	<p title="西双版纳安纳塔拉度假酒店限时6折--1晚或2晚套餐">西双版纳安纳塔拉度假酒店限时6折--1晚或2晚套餐</p>
+								     	 </div>
+								    </div>
+							    </a>
+							</div>
+						</div>
+					<!-- 第二行 -->
+						<div class="row secondRow">
+							<div class="col-xs-8">
+								<a href="">
+									<div class="thumbnail">
+								     	<img src="./imgs/index/trip4.jpg" alt="...">
+								     	<div class="whitebar whitetext text1">
+											静悦套房1晚住宿+次日双早、欢迎水果&点心+双人下午茶1份+ 4道式双人海鲜晚餐1次+双人鸡尾酒-次	
+								     	</div>
+								     	<div class="caption">
+								        	<p title="珠海罗莱夏朵静云山庄1晚套餐--赠双人下午茶 &海鲜晚餐,周末不加价">珠海罗莱夏朵静云山庄1晚套餐--赠双人下午茶 &海鲜晚餐,周末不加价</p>
+								     	 </div>
+								    </div>	
+							    </a>
+							</div>
+							<div class="col-xs-4">
+								<a href="">
+									<div class="thumbnail">
+								     	<img src="./imgs/index/trip5.png" alt="...">
+								     	<div class="whitebar whitetext">
+											看海、骑单车、泡温泉、和牛涮锅、还有夜晚的奇幻世界，度过闲散的假日。
+								     	</div>
+								     	<div class="caption">
+								        	<p title="「海外预售」日本长崎艾兰度假酒店1晚套餐--限时5折,适翻于2021年6月30日">「海外预售」日本长崎艾兰度假酒店1晚套餐--限时5折,适翻于2021年6月30日</p>
+								        	<span class="chart chart1"></span>
+								        	<span class=" chart chart1"></span>
+								     	 </div>
+								    </div>
+							    </a>
+							</div>
+						</div>
+					</div>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+  	</section>
+  	<div class="videoweb">
+        <video class="videowebbox" controls src="http://cdn-videos.zanadu.cn/resources/zanadu/normal-video/zanadu-brand.mp4"></video>
+    </div>
+  	<section>
+  		<div class="section2">
+  		<div class="sectionbox">
+  			<div class="videobox">
+  				<div class="video">
+  					<div class="play"></div>
+  					<div class="text">
+  						与众不同的ZANADU赞那度
+  					</div>
+  				</div>
+  				<div class="videoright">
+  					<div class="videotext">
+  						<div class="map"></div>
+  						<div class="text">
+  							为确保带给您最赞的旅行体验，我们汇聚了全中国最精英的旅行专家团队为您服务。 每一位旅行顾问都有丰富的全球旅行经验，他们热情洋溢，细致入微，一对一为您提供的咨询， 致力于为您打造独一无二的旅行体验，符合您的个性、兴趣、品味、预算。且我们从来不在品质上妥协。
+  						</div>
+  						<div class="know">
+  							<a href="">点击了解更多</a>
+  						</div>
+  					</div>
+  				</div>
+  			</div>
+  			<div class="tripbox">
+  				<div class="propellingbox">
+  					<div class="propellingText">国内短假 Domestic Vacation Packages</div>
+  					<a class="propellingProducts" href="">
+  						<span class="picture"></span>
+  					 	 <span class="text">更多国内短假</span>
+  					</a>
+  				</div>
+  				<div class="examplebox bg-image-clouds section-padding">
+  					<div class="container cms-section">
+  					<!-- 第一行 -->
+						<div class="row firstRow">
+							<div class="col-xs-4">
+								<a href="">
+									<div class="thumbnail">
+								     	<img src="./imgs/index/trip1.1.jpg" alt="...">
+								     	<div class="whitebar">
+								     	</div>
+								     	<div class="caption">
+								        	<p title="启东洲颐温泉酒店-限时抢购含特色定食套餐">启东洲颐温泉酒店-限时抢购含特色定食套餐</p>
+								     	 </div>
+								    </div>	
+							    </a>
+							</div>
+							<div class="col-xs-4">
+								<a href="">
+									<div class="thumbnail">
+								     	<img src="./imgs/index/trip1.2.jpg" alt="...">
+								     	<div class="whitebar whitetext12">
+								     		2晚荷田里住宿+每日早餐+双人绿色生态餐+双人下午茶+游览西溪南古村+陶艺体验+乡野农夫体验+百年老豆腐坊参观&新鲜豆浆品尝
+								     	</div>
+								     	<div class="caption">
+								        	<p title="望山黄山西溪南荷田里2晚套餐--品徽州地道美食,游西溪古村落">望山黄山西溪南荷田里2晚套餐--品徽州地道美食,游西溪古村落</p>
+								     	 </div>
+								    </div>
+							    </a>
+							</div>
+							<div class="col-xs-4">
+								<a href="">
+									<div class="thumbnail">
+								     	<img src="./imgs/index/trip1.3.jpg" alt="...">
+								     	<div class="whitebar">
+								     	</div>
+								     	<div class="caption">
+								        	<p title="西双版纳安纳塔拉度假酒店限时6折--1晚或2晚套餐">西双版纳安纳塔拉度假酒店限时6折- - -1晚或2晚套餐</p>
+								     	 </div>
+								    </div>
+							    </a>
+							</div>
+						</div>
+					<!-- 第二行 -->
+						<div class="row secondRow">
+							<div class="col-xs-4">
+								<a href="">
+									<div class="thumbnail">
+								     	<img src="./imgs/index/trip4.4.jpg" alt="..." class="group14">
+								     	<div class="whitebar whitetext14">
+								     		外景房住宿+早餐及正餐+赞那度独家专享包头机场/火车站接站服务+欢迎果盘一份+莲沙度假岛室内外泳池，康体娱乐、儿童活动及室外夜间主题活动+响沙湾景区沙漠游览门票、索道+仙沙休闲岛、悦沙休闲岛休闲娱乐活动(多次) +提供贴心的精品夜床服务+赠送酒店定制特色明信片一份
+								     	</div>
+								     	<div class="caption">
+								        	<p title="内蒙古响沙湾莲花酒店--价全包，在巨型沙漠迪士尼，嗨翻整个夏日!">内蒙古响沙湾莲花酒店--价全包，在巨型沙漠"迪士尼”，嗨翻整个夏日! </p>
+								     	 </div>
+								    </div>
+							    </a>
+							</div>
+							<div class="col-xs-4">
+								<a href="">
+									<div class="thumbnail">
+								     	<img src="./imgs/index/trip4.5.jpg" alt="..." class="group15">
+								     	<div class="whitebar whitetext text1">
+											
+								     	</div>
+								     	<div class="caption">
+								        	<p title="三亚嘉佩乐度假酒店-- -2晚/3晚匠心奢享&浪漫嘉期，享奢华海滨度假酒店的全新典范之作">三亚嘉佩乐度假酒店-- -2晚/3晚匠心奢享&浪漫嘉期，享奢华海滨度假酒店的全新典范之作</p>
+								     	 </div>
+								    </div>	
+							    </a>
+							</div>
+							<div class="col-xs-4">
+								<a href="">
+									<div class="thumbnail">
+								     	<img src="./imgs/index/trip1.6.jpg" alt="...">
+								     	<div class="whitebar whitetext">
+											看海、骑单车、泡温泉、和牛涮锅、还有夜晚的奇幻世界，度过闲散的假日。
+								     	</div>
+								     	<div class="caption"> 	 		
+								        	<p title="苏州有熊酒店套餐-限时6折, 乾隆时期遗留的园林式祖宅">苏州有熊酒店套餐-限时6折, 乾隆时期遗留的园林式祖宅</p>
+								     	 </div>
+								    </div>
+							    </a>
+							</div>
+						</div>
+					</div>
+  				</div>
+  			</div>
+  			<div class="tripbox">
+  				<div class="propellingbox">
+  					<div class="propellingText">精选酒店 Hotel & Resort Collections</div>
+  					<a class="propellingProducts" href="">
+  						<span class="picture"></span>
+  					 	 <span class="text">更多酒店</span>
+  					</a>
+  				</div>
+  				<div class="examplebox bg-image-clouds section-padding">
+  					<div class="container cms-section">
+  					<!-- 第一行 -->
+						<div class="row firstRow">
+							<div class="col-xs-4">
+								<a href="">
+									<div class="thumbnail">
+								     	<img src="./imgs/index/trip2.1.jpg" alt="...">
+								     	<div class="caption">
+								        	<p title="启东洲颐温泉酒店-限时抢购含特色定食套餐">启东洲颐温泉酒店-限时抢购含特色定食套餐</p>
+								     	 </div>
+								    </div>	
+							    </a>
+							</div>
+							<div class="col-xs-4">
+								<a href="">
+									<div class="thumbnail">
+								     	<img src="./imgs/index/trip2.2.jpg" alt="...">
+								     	<div class="caption">
+								        	<p title="望山黄山西溪南荷田里2晚套餐--品徽州地道美食,游西溪古村落">望山黄山西溪南荷田里2晚套餐--品徽州地道美食,游西溪古村落</p>
+								     	 </div>
+								    </div>
+							    </a>
+							</div>
+							<div class="col-xs-4">
+								<a href="">
+									<div class="thumbnail">
+								     	<img src="./imgs/index/trip2.3.jpg" alt="...">
+								     	<div class="caption">
+								        	<p title="西双版纳安纳塔拉度假酒店限时6折--1晚或2晚套餐">西双版纳安纳塔拉度假酒店限时6折- - -1晚或2晚套餐</p>
+								     	 </div>
+								    </div>
+							    </a>
+							</div>
+						</div>
+					<!-- 第二行 -->
+						<div class="row secondRow">
+							<div class="col-xs-4">
+								<a href="">
+									<div class="thumbnail">
+								     	<img src="./imgs/index/trip2.4.jpg" alt="..." class="group14">
+								     	<div class="caption">
+								        	<p title="内蒙古响沙湾莲花酒店--价全包，在巨型沙漠迪士尼，嗨翻整个夏日!">内蒙古响沙湾莲花酒店--价全包，在巨型沙漠"迪士尼”，嗨翻整个夏日! </p>
+								     	 </div>
+								    </div>
+							    </a>
+							</div>
+							<div class="col-xs-4">
+								<a href="">
+									<div class="thumbnail">
+								     	<img src="./imgs/index/trip2.6.jpg" alt="..." class="group25">
+								     	<div class="caption">
+								        	<p title="三亚嘉佩乐度假酒店-- -2晚/3晚匠心奢享&浪漫嘉期，享奢华海滨度假酒店的全新典范之作">三亚嘉佩乐度假酒店-- -2晚/3晚匠心奢享&浪漫嘉期，享奢华海滨度假酒店的全新典范之作</p>
+								     	 </div>
+								    </div>	
+							    </a>
+							</div>
+							<div class="col-xs-4">
+								<a href="">
+									<div class="thumbnail">
+								     	<img src="./imgs/index/trip2.6.jpg" alt="...">
+								     	<div class="caption">
+								        	<p title="苏州有熊酒店套餐-限时6折, 乾隆时期遗留的园林式祖宅">苏州有熊酒店套餐-限时6折, 乾隆时期遗留的园林式祖宅</p>
+								     	 </div>
+								    </div>
+							    </a>
+							</div>
+						</div>
+					</div>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+  	</section>
+  	<section>
+  		<div class="goTopBtnBox">
+			<div class="goTopBtn" ><span>返回顶部</span></div>
+		</div>
+  	</section>
+	<footer class="">
+		<div class="col3 footer-padding container">
+			<ul class="no-bullets">
+				<li><h4>联系我们</h4></li>
+				<li class="phone-number">客服热线<a href="">400-626-0698</a></li>
+				<li class="phone-number">广告合作<a href="">ad@zanadu.cn</a></li>
+				<li class="color-gray"><a href="">info@zanadu.cn</a></li>
+			</ul>
+			<ul>
+				<li><h4>赞那度微信开通</h4></li>
+				<li class="color-green">微信服务号<span class="icon-wechat"></span></li>
+				<li><a href="">赞那度旅行顾问</a></li>
+				<li><a href="">旅行产品与服务</a></li>
+				<li class="color-green">微信订阅号<span class="icon-wechat"></span></li>
+				<li><a href="">赞那度旅行人生</a></li>
+				<li><a href="">旅行体验 & 生活方式</a></li>
+			</ul>
+			<ul>
+				<li><h4>关于赞那度</h4></li>
+				<li><a href="">关于我们</a></li>
+				<li><a href="">团队介绍</a></li>
+				<li><a href="">媒体报道</a></li>
+				<li><a href="">工作机会</a></li>
+			</ul>
+			<ul>
+				<li><h4>技术支持</h4></li>
+				<li><a href="">隐私政策</a></li>
+				<li><a href="">服务条款</a></li>
+				<li><a href="">联系我们</a></li>
+				<li><a href="">合作伙伴</a></li>
+			</ul>
+			<div class="clearfix"></div>
+		</div>
+		<div class="col3 contact cloud-login container">
+			<div class="cprite">
+				<ul class="nav nav-pills">
+					<li class="weibo"><a href=""></a></li>
+					<li class="youku"><a href=""></a></li>
+					<li class="tencent"><a href=""></a></li>
+				</ul>
+
+			</div>
+			<div class="clearfix"></div>
+			<div class="row">
+				<div class="col-xs-1"></div>
+				<div class="col-xs-3">欢迎来到赞那度，快来<a href="">注册</a>吧！</div>
+				<div class="col-xs-4"></div>
+				<div class="col-xs-2"><a href="">切换到手机版浏览</a></div>
+			</div>
+		</div>
+		<div class="qr-zanaducn"></div>
+		<div class="clearfix cloud-mask"></div>
+		<div class="center text-center">
+			<p>北京赞那度国际旅行社有限公司，旅行社业务经营许可证编号：L-BJ-CJ00559</p>
+			<div>Copyright ZANADU赞那度 2011-2020 | 
+				<a href="">京ICP备 11041827号 | </a>
+				<a href="">京ICP证120221 | </a>
+				<a href=""><span></span>京公网安备11010502036479号 | </a>
+			</div>
+			<div class="vertical-black"></div>
+			<div class="footer">
+					<div class="move"></div>
+			</div>
+		</div>
+	</footer>
+  <script src="js/index1.js"></script>	
+  <script src="js/index.js"></script>
+</body>
+</html>

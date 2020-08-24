@@ -1,0 +1,1 @@
+$( "#datepicker" ).datepicker({ minDate: -0});
