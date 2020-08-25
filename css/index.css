@@ -513,6 +513,15 @@ section .tripbox .cms-section .thumbnail .caption .chart{
   position: relative;
   left:200px;
   margin-right:5px;
+  background-color: #CB5977;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+section .tripbox .cms-section .thumbnail .caption .fly{
+  background-image: url(../imgs/discount/飞机.svg);
+}
+section .tripbox .cms-section .thumbnail .caption .boot{
+  background-image: url(../imgs/discount/行李箱.svg);
 }
 section .section2{
   background-color: #E1EBF3;
@@ -648,6 +657,14 @@ section .tripbox .col-xs-4 .thumbnail .whitetext14{
   position: absolute;
   bottom:100px;
   height:120px;
+}
+/*图片交互*/
+section .section2 .tripbox .row .col-xs-4 .thumbnail .inUp p{
+  color:black;
+}
+section .section2 .sectionbox .tripbox .row .col-xs-4 .thumbnail .inUp .Grand{
+  color:white;
+  font-size: 16px;
 }
 .goTopBtnBox{	
   position:relative;

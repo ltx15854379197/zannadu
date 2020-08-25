@@ -37,7 +37,7 @@ $(function(){
             var h=$(document).scrollTop();
                 console.log(h); 
                 if(h>=500){ 
-                    console.log(1)
+                    // console.log(1)
                 navto.css({"position":"fixed","top":"0px","left":"0px"});
                 navbox.css("height","80px");
                 birdlogo.show();
@@ -80,8 +80,50 @@ $(function(){
             return false;
         }
         video.css({"width":w,"height":h});
+//图片交互
+    $(".thumbnail").mouseover (function(){
+        // console.log(1)
+        var _this=$(this)
+        var inDwon=_this.children(".inDwon")
+        var inUp=_this.children(".inUp")
+        $(inDwon).css("display","none")
+        $(inUp).css("display","block")
+    })
+    $(".thumbnail").mouseout (function(){
+        var _this=$(this)
+        var inDwon=_this.children(".inDwon")
+        var inUp=_this.children(".inUp")
+        $(inUp).css("display","none")
+        $(inDwon).css("display","block")
+        
+    })
 // 首页尾部js
     $(".goTopBtn").click(function(){
         $("html,body").animate({scrollTop:0},500)
+    })
+    var goTopBtn=$(".goTopBtn");
+    $(window).scroll(function(){
+        var h=$(document).scrollTop();
+        if(h>=1300){
+            goTopBtn.show();
+            goTopBtn.css({
+                "position":"fixed",
+                "top" :"660px",
+                "left":"50%",
+                "transform":"translate(-50%,0)"
+            })
+        }
+        if(h>5900){
+            goTopBtn.show();
+            goTopBtn.css({
+                "position":"relative",
+                "top":"0px",    
+                "left":"10%",
+                // "transform":"translate(-50%,0)"  
+            })
+        }
+        if(h<1300){
+            goTopBtn.hide();
+        }
     })
 })
