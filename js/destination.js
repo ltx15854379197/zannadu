@@ -27,7 +27,7 @@ $(".thumbnail").mouseover (function(){
             goTopBtn.show();
             goTopBtn.css({
                 "position":"fixed",
-                "top" :"610px",
+                "top" :"675px",
                 "left":"50%",
                 "transform":"translate(-50%,0)"
             })
@@ -38,8 +38,8 @@ $(".thumbnail").mouseover (function(){
                 "position":"relative",
                 "bottom":"0px",
                 "top":"5px",
-                "left":"50%",
-                "transform":"translate(-50%,0)"
+                "left":"20%"
+                // "transform":"translate(-50%,0)"
             })
         }
         if(h<1800){

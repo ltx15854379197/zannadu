@@ -108,7 +108,7 @@ $(function(){
             goTopBtn.show();
             goTopBtn.css({
                 "position":"fixed",
-                "top" :"660px",
+                "top" :"675px",
                 "left":"50%",
                 "transform":"translate(-50%,0)"
             })
@@ -118,7 +118,7 @@ $(function(){
             goTopBtn.css({
                 "position":"relative",
                 "top":"0px",    
-                "left":"10%",
+                "left":"20%",
                 // "transform":"translate(-50%,0)"  
             })
         }

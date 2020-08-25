@@ -496,19 +496,19 @@ footer .footer{
 }
 /*返回顶部*/
 .goTopBtnBox{
-	width: 100%;
+	width: 50%;
 	height: 50px;
 	position:relative;
 	top:0px;
 	left:40%;
 	overflow: hidden;
-	border:1px solid red;
+	/*border:1px solid red;*/
 }
 .goTopBtn{
 	height: 50px;
 	/*margin: auto;*/
 	width: 100px;
-	border:1px solid red;
+	/*border:1px solid red;*/
 	height: 100px;
 	position:relative;
 	border-radius: 50px;
