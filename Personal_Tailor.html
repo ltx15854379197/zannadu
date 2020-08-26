@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="plugin/bootstrap/css/bootstrap.css">
+	<script src="plugin/jquery-3.5.1.js"></script>
+	<script src="plugin/bootstrap/js/bootstrap.js"></script>
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/Personal_Tailor.css">
+	<!-- 滑块插件 -->
+	<link rel="stylesheet" href="plugin/ion.rangeSlider.css" />
+	<link rel="stylesheet" href="plugin/ion.rangeSlider.skinFlat.css" id="styleSrc"/>
+	<!-- 表单验证插件 -->
+	<script src="plugin/jquery.validate.js"></script>
+	<script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+	<script src="plugin/messages_zh.js"></script>
+
+</head>
+<body>
+	<header>
+		<nav class="navto">
+		<div class="navbox">
+			<div class="birdlogo"></div>
+			<div class="barbox">
+			<ul class="bar">
+			<li><a href="" class="destination">目的地</a>
+				<div class="map">
+					<div class="area">
+						<h4>热门目的地</h4>
+						<hr>
+						<div class="hotplace">
+							<a href="">日本</a>
+							<a href="">东非</a>
+							<a href="">南部非洲</a>
+							<a href="">英国</a> 
+							<a href="">北欧</a>
+							<a href="">马尔代夫</a>
+							<a href="">泰国</a>
+							<a href="">印度尼西亚</a>
+							<a href="">斐济</a>
+							<a href="">中东与北非</a>
+							<a href="">东南亚与南亚</a>
+							<a href="">澳大利亚</a>
+							<a href="">新西兰</a>
+							<a href="">南极与北极</a>
+							<a href="">云南</a>
+							<a href="">浙江</a>
+							<a href="">海南</a>
+						</div>
+					</div>
+					<div class="area">
+						<h4>东亚</h4>
+						<hr>
+						<div class="hotplace">
+							<a href="">日本</a>
+							<a href="">中国</a>
+							<a href="">韩国</a>
+						</div>
+					</div>
+					<div class="area">
+						<h4>拉丁美洲</h4>
+						<hr>
+						<div class="hotplace">
+							<a href="">阿根廷</a>
+							<a href="">巴西</a>
+							<a href="">玻璃为多</a>
+							<a href="">秘鲁</a> 
+							<a href="">墨西哥</a>
+						</div>
+					</div>
+					<div class="area">
+						<h4>拉丁美洲</h4>
+						<hr>
+						<div class="hotplace">
+							<a href="">阿根廷</a>
+							<a href="">巴西</a>
+							<a href="">玻璃为多</a>
+							<a href="">秘鲁</a> 
+							<a href="">墨西哥</a>
+						</div>
+					</div>
+					<div class="area">
+						<h4>西欧与地中海</h4>
+						<hr>
+						<div class="hotplace">
+							<a href="">阿根廷</a>
+							<a href="">巴西</a>
+							<a href="">玻璃为多</a>
+							<a href="">秘鲁</a> 
+							<a href="">墨西哥</a>
+						</div>
+					</div>
+					<div class="area">
+						<h4>东欧与俄罗斯</h4>
+						<hr>
+						<div class="hotplace">
+							<a href="">阿根廷</a>
+							<a href="">巴西</a>
+							<a href="">玻璃为多</a>
+							<a href="">秘鲁</a> 
+							<a href="">墨西哥</a>
+						</div>
+					</div>
+					<div class="area">
+						<h4>大洋洲</h4>
+						<hr>
+						<div class="hotplace">
+							<a href="">阿根廷</a>
+							<a href="">巴西</a>
+							<a href="">玻璃为多</a>
+							<a href="">秘鲁</a> 
+							<a href="">墨西哥</a>
+						</div>
+					</div>
+					<div class="area">
+						<h4>东南亚与地中华</h4>
+						<hr>
+						<div class="hotplace">
+							<a href="">阿根廷</a>
+							<a href="">巴西</a>
+							<a href="">玻璃为多</a>
+							<a href="">秘鲁</a> 
+							<a href="">墨西哥</a>
+						</div>
+					</div>
+					<div class="area">
+						<h4>东欧与俄罗斯</h4>
+						<hr>
+						<div class="hotplace">
+							<a href="">阿根廷</a>
+							<a href="">巴西</a>
+							<a href="">玻璃为多</a>
+							<a href="">秘鲁</a> 
+							<a href="">墨西哥</a>
+						</div>
+					</div>
+					<div class="area">
+						<h4>大洋洲</h4>
+						<hr>
+						<div class="hotplace">
+							<a href="">阿根廷</a>
+							<a href="">巴西</a>
+							<a href="">玻璃为多</a>
+							<a href="">秘鲁</a> 
+							<a href="">墨西哥</a>
+						</div>
+					</div>
+					<div class="area">
+						<h4>东南亚与南亚</h4>
+						<hr>
+						<div class="hotplace">
+							<a href="">阿根廷</a>
+							<a href="">巴西</a>
+							<a href="">玻璃为多</a>
+							<a href="">秘鲁</a> 
+							<a href="">墨西哥</a>
+						</div>
+					</div>
+					<div class="area">
+						<h4>北美</h4>
+						<hr>
+						<div class="hotplace">
+							<a href="">阿根廷</a>
+							<a href="">巴西</a>
+							<a href="">玻璃为多</a>
+							<a href="">秘鲁</a> 
+							<a href="">墨西哥</a>
+						</div>
+					</div>
+					<div class="area">
+						<h4>东非</h4>
+						<hr>
+						<div class="hotplace">
+							<a href="">阿根廷</a>
+							<a href="">巴西</a>
+							<a href="">玻璃为多</a>
+							<a href="">秘鲁</a> 
+							<a href="">墨西哥</a>
+						</div>
+					</div>
+					<div class="area"></div>
+					<div class="area"></div>
+					<div class="area"></div>
+				</div>
+			</li>
+			<li><a href="" class="route">预定行程</a>
+				<div class="mapplace">
+					<div>
+					<h3>预定行程</h3>
+					<div class="project">
+						<div class="projectimg img1">
+							<div class="projecttext"><a href="">探索世界</a></div>
+						</div>
+						<div class="projectimg img2">
+							<div class="projecttext"><a href="">海外自由行</a></div>
+						</div>
+						<div class="projectimg img3">
+							<div class="projecttext"><a href="">轻奢小团</a></div>
+						</div>
+						<div class="projectimg img4">
+							<div class="projecttext"><a href="">大航海时代</a></div>
+						</div>
+						<div class="projectimg img5">
+							<div class="projecttext"><a href="">精品别墅</a></div>
+						</div>
+						<div class="projectimg img6">
+							<div class="projecttext"><a href="">精选酒店</a></div>
+						</div>
+						<div class="projectimg img7">
+							<div class="projecttext"><a href="">国内短假</a></div>
+						</div>
+						<div class="projectimg img8">
+							<div class="projecttext"><a href="">私人定制</a></div>
+						</div>
+					</div>
+				</div>
+					<div class="phone"></div>
+				</div>
+			</li>
+			<li><a href="">折扣</a></li>
+			<li><a href="">私人定制</a></li>
+			<li><a href="">活动</a></li>
+			</ul>
+		</div>
+		<div class="navsearch">
+			<input type="text" class="form-control searchbox" placeholder="目的地/酒店/邮轮">
+      			<button type="submit" class="btn btn-default btn-lg headsearch">
+      			<span class="glyphicon glyphicon-search" style="color:red"></span>
+		</div>
+		<div class="puton">
+			<a href="">登录</a>
+			<a href="">注册</a>
+		</div>
+		</div>
+		</nav>
+	</header>
+	<section class="firstSec">
+		<div class="container">
+			<div class="col-xs-12">
+				<h1>私人定制</h1>
+				<h3>BESPOKE  TRAVEL  SERVICES</h3>
+				<p>每个人对于旅行，都有着独一无二的憧憬与期待，我们愿做你的魔法师，将这些专属于你的理想点化成真。<br>2人即可成行、专属旅行顾问、随心舒适行程、顶级住宿体验、地道风味美食……梦幻般的享受，尽在赞那度私人定制</p>
+			</div>
+		</div>
+		<form action="" class="formBox">
+			<input type="text" name="destination" required><span>你想去哪儿? <s>*</s></span><span><img src="imgs/index/place.png" alt="" class="textSign"></span>
+			<div class="theme">
+				<div class="container-fluid">
+					<div class="row"></div>
+						<div class="col-xs-12">
+							选择你的旅行主题（最多选3个）<s>*</s>
+						</div>
+					<div class="row">
+						<div class="col-xs-4">
+							<a href="">
+							<span><img src="imgs/Personal_Tailor/房子.svg" alt=""></span>
+							</a>
+						</div>
+						<div class="col-xs-4">
+							<a href="">
+							<span><img src="imgs/Personal_Tailor/房子.svg" alt=""></span>
+							</a>
+						</div>
+						<div class="col-xs-4">
+							<a href="">
+							<span><img src="imgs/Personal_Tailor/房子.svg" alt=""></span>
+							</a>
+						</div>
+					</div>
+					<div class="row second">
+						<div class="col-xs-4">
+							<a href="">
+							<span><img src="imgs/Personal_Tailor/房子.svg" alt=""></span>
+							</a>
+						</div>
+						<div class="col-xs-4">
+							<a href="">
+							<span><img src="imgs/Personal_Tailor/房子.svg" alt=""></span>
+							</a>
+						</div>
+						<div class="col-xs-4">
+							<a href="">
+							<span><img src="imgs/Personal_Tailor/房子.svg" alt=""></span>
+							</a>
+						</div>
+
+						<div class="row lastRow">
+							<div class="col-xs-12"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="colorFout">
+				<div>
+				<div>出发地<s>*</s></div>
+				<input type="text" name="colorFout" style="color: #000">		
+				</div>
+				<div class="go-off">
+					<div>出发日期<s>*</s>
+					<input type="date" class="" name="go-off">
+					</div>
+					<div>出行时长<s>*</s>
+					<input type="number" class="">	
+					</div>
+				</div>
+				<div>
+					<label>
+						<input type="checkbox" style="width: 10px;height: 10px;"> 我的日期可以弹性调整
+					</label>
+				</div>
+				<div class="lastRow"></div>
+			</div>
+			<div class="hotel">
+				<div>
+					<h3>酒店级别</h3>
+				</div>
+				<div class="hotelChange">
+					<input type="radio" style="width: 14px;height: 14px" name="hotelLevel">顶级奢华
+					<input type="radio" style="width: 14px;height: 14px" name="hotelLevel">豪华尊贵
+					<input type="radio" style="width: 14px;height: 14px" name="hotelLevel">小型精品
+				</div>
+				<div>
+					<h3>单人预算</h3>
+				</div>
+				<div class="item">
+				<!-- 选择文本框这里开始 -->
+					<div class="filter-box">
+						<div class="filter-text">
+							<input class="filter-title" type="text" readonly placeholder="pleace select" />
+							<i class="icon icon-filter-arrow"></i>
+						</div>
+						<select name="filter">
+							<option value="new">￥50,000-80,000</option>
+							<option value="unaudited">￥15,000-30,000</option>
+							<option value="nothrough" selected>￥30,000-50,000</option>
+							<option value="audit">￥80,000以上</option>
+						</select>
+					<!-- 这里结束 -->	
+					</div>
+				</div>
+				<div class="lastRow"></div>
+			</div>
+			<div class="num textColor">
+				<div class="adultNum">
+					<div>成人数</div>
+					<input type="number" min="1">
+				</div>
+				<div class="chliderNum">
+					<div>儿童数<span>(0到12周岁)</span></div>
+					<input type="number" min="0">
+				</div>
+				<div class="roomNum">
+					<div>房间数</div>
+					<input type="number" min="0">
+				</div>
+			</div>
+			<div class="lastRow"></div>
+			<div class="guideLge textColor">
+				<div><h3>导游语言要求</h3></div>
+				<div class="guideLgeChange">
+					<label for=""><input type="radio" style="width: 14px;height: 14px" name="guideLgeChange">导游语言要求只接受中文</label>
+					<label for=""><input type="radio" style="width: 14px;height: 14px" name="guideLgeChange">中文或英文均可</label>
+				</div>
+			</div>
+			<div class="lastRow"></div>
+			<div class="special textColor">
+				<div><h3>特殊需求</h3></div>
+				<textarea name="" id="" cols="30" rows="10"></textarea>
+			</div>
+			<div class="lastRow"></div>
+			<div class="Allmsg textColor">
+				<div class="firstname">
+					<div>姓氏<s>*</s></div>
+					<input type="text" name="firstname">
+				</div>
+				<div class="lastname">
+					<div>名字<s>*</s></div>
+					<input type="text" name="lastname">
+				</div>
+				
+			</div>
+			<div class="phone textColor">
+					<div>电话号<s>*</s></div>
+					<input type="text" name="phone">
+			</div>
+			<div class="textColor">
+					<div>邮箱地址<s>*</s></div>
+					<input type="text" name="email">
+			</div>
+			<div class="textColor">
+					<div>微信号<s>*</s></div>
+					<input type="text">
+			</div>
+			<!-- 滑块插件 -->
+			<div class="textColor">
+				<input type="text" id="range_1" />
+			</div>
+			<div class="lastRow"></div>
+			<div class="sub textColor">
+				<input type="submit">
+			</div>
+		</form>
+	</section>
+
+	<script src="js/common.js"></script>
+	<!-- <script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script> -->
+	<script src="js/Personal_Tailor.js"></script>
+	<script type="text/javascript">
+		//本小插件支持移动端哦
+		
+		//这里是初始化
+		$('.filter-box').selectFilter({
+			callBack : function (val){
+				//返回选择的值
+				console.log(val+'-是返回的值')
+			}
+		});
+	</script>
+	<!-- 滑块插件 -->
+	<!-- <script src="http://www.jq22.com/jquery/1.11.1/jquery.min.js"></script> -->
+	<script type="text/javascript" src="plugin/ion.rangeSlider.js"></script>
+</body>
+</html>
