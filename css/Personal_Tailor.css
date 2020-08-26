@@ -1,0 +1,307 @@
+body>section{
+	width: 100%;
+	height: 2000px;
+	background-image: url(../imgs/Personal_Tailor/bg-image-bespoke.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	top: 0px;
+	left:0px;
+}
+.firstSec .container .col-xs-12{
+	margin-top: 60px;
+	color: #fff;
+}
+.firstSec form{
+	width: 400px;
+	margin: auto;
+}
+.firstSec form>input{
+	width: 400px;
+	height: 40px;
+	padding-left: 120px;
+}
+.firstSec form>span{
+	position:relative;
+	top: -30px;
+	left: 30px;
+}
+.firstSec form s{
+	text-decoration: none;
+	color: red;
+}
+.firstSec form span .textSign{
+	width: 30px;
+	height: 30px;
+	position:relative;
+	top: -5px;
+	left: -115px;
+}
+.theme .col-xs-12{
+	color: #fff;
+}
+.theme .col-xs-4{
+	margin-top:10px; 
+	position:relative;
+}
+.theme .second{
+	margin-top:50px;
+}
+.theme .col-xs-4 span{
+	border: 3px solid #fff;
+	border-radius: 15px;
+	position:absolute;
+	top: 0px;
+	left: 0px;
+}
+.lastRow{
+	width: 400px;
+	margin-top:50px;
+	border-bottom: 2px dotted #fff;
+}
+input{
+	width: 400px;
+	height: 40px;
+	
+}
+.colorFout{
+	margin-top: 20px;
+	color:#fff;
+
+}
+.colorFout .go-off{
+	
+	width: 400px;
+	display: flex;
+}
+.colorFout div{
+	margin-top:15px;
+}
+.colorFout .go-off input{
+	width: 190px;
+	color: black;
+}
+.colorFout .go-off .check{
+	width: 30px;
+}
+.hotel{
+	text-align: center;
+	color: #fff;
+}
+.hotel .hotelChange input{
+	margin-left:30px;
+}
+.item {
+	color:black;
+	width: 400px;
+	height: 40px;
+	margin: 10px auto;
+}
+/*选择钱数文本框*/
+li {
+	list-style: none;
+}
+
+.filter-disabled {
+	-moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.filter-box {
+    position: relative;
+}
+
+.filter-box select {
+	display: none;
+}
+
+.filter-text {
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+	cursor: pointer;
+	padding: 0 30px 0 10px;
+	background: #fff;
+	border: 1px solid #e6e6e6;
+}
+
+.filter-text input {
+	font-size: 14px;
+}
+
+.filter-text .filter-title {
+	width: 100%;
+	height: 36px;
+	line-height: 36px;
+	border: 0;
+	background-color: transparent;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	padding: 0;
+	cursor: pointer;
+}
+
+.filter-list {
+	display: none;
+	width: 100%;
+	max-height: 300px;
+	background-color: #fff;
+	font-size: 14px;
+	position: absolute;
+	top: 42px;
+	left: 0;
+	z-index: 99;
+	border: 1px solid #e6e6e6;
+	overflow: auto;
+}
+
+.filter-list li.filter-null a {
+	color: #d2d2d2;
+}
+
+.filter-list li a {
+	display: block;
+	padding: 0 10px;
+	line-height: 36px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	cursor: pointer;
+}
+
+.filter-list li:hover {
+	background-color: #f2f2f2;
+}
+
+.filter-list li.filter-selected {
+	background-color: #5FB878;
+}
+
+.filter-list li.filter-selected a{
+	display: block;
+}
+
+.filter-list li.filter-disabled {
+	background-color: #fff;
+}
+
+.filter-list li.filter-disabled a{
+	display: block;
+	color: #F3F3F3;
+}
+
+.filter-list li.filter-disabled:hover a {
+	cursor: not-allowed!important;
+	background-color: #fff;
+}
+
+.icon {
+	position: absolute;
+}
+
+.icon-filter-arrow {
+	width: 8px;
+	height: 6px;
+	background-repeat: no-repeat;
+    background-image: url(../imgs/Personal_Tailor/icon_arrow_down_x2.png);
+    background-size: 100%;
+    right: 10px;
+    top: 13px;
+    transition: all .2s;
+}
+.icon-filter-arrow.filter-show {
+	-webkit-transform: rotate(-180deg);
+	transform: rotate(-180deg);
+}
+
+.filter-list::-webkit-scrollbar {
+	width: 4px;
+	height: 4px;
+}
+
+.filter-list::-webkit-scrollbar-track {
+	background: #fff 
+}
+
+.filter-list::-webkit-scrollbar-thumb {
+	background: #F3F3F3;
+}
+.textColor{
+	margin-top:10px;
+	color:#fff;
+}
+form .num{
+	display: flex;
+	justify-content: space-between;
+}
+form .num div{
+	margin-top: 10px;
+}
+form .num .adultNum{
+	width: 150px;
+}
+form .num .adultNum input{
+	color: black;
+	width: 150px;
+}
+form .num .chliderNum，form .num .roomNum{
+	width: 100px;
+}
+form .num .chliderNum span{
+	font-size: 0.7em;
+}
+form .num .chliderNum input,form .num .roomNum input{
+	color: black;
+	width: 100px;
+}
+form .guideLge .guideLgeChange{
+	display: flex;
+	justify-content: space-between;
+}
+form .guideLge,.special{
+	text-align: center;
+}
+form .special textarea{
+	width: 400px;
+	height: 60px;
+	color: black;
+}
+.Allmsg{
+	display: flex;
+	justify-content: space-between;
+}
+.Allmsg .firstname{
+	width: 200px;
+}
+.Allmsg input{
+	width: 190px;
+	color: black;
+}
+form .sub{
+	margin-top: 20px;
+	text-align: center;
+}
+form .sub input{
+	width: 120px;
+	height: 40px;
+	border-radius: 20px;
+	background-color:#EF426F;
+	border: none;
+	outline: none;
+}
+/*表单验证*/
+label.error {
+
+  padding-left: 16px;
+
+  padding-bottom: 2px;
+
+  font-weight: bold;
+
+  color: red;
+}
+
+
