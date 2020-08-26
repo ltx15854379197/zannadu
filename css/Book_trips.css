@@ -122,3 +122,40 @@
 	margin: auto;
 	margin-top: 150px;
 }
+.secondSec .swiper-button-next{
+	/*border:1px solid red;*/
+	width: 50px;
+	height:50px;
+	border-radius:25px;
+	position: absolute;
+	right:20px;
+	top:50%;
+	/*background-color: black;*/
+	background-image: url(../imgs/index/arrow.png);	
+	background-repeat: no-repeat;
+	background-position: -160px -5px;
+}
+.secondSec .swiper-button-next:hover{
+	background-position: -160px -70px;
+}
+.secondSec .swiper-button-next:after{
+	display: none;
+}
+.secondSec .swiper-button-prev{
+/*	border:1px solid red;
+*/	width: 50px;
+	height:50px;
+	border-radius:25px;
+	position: absolute;
+	left:20px;
+	top:50%;
+	background-image: url(../imgs/index/arrow.png);	
+	background-repeat: no-repeat;
+	background-position: -90px -5px;
+}
+.secondSec .swiper-button-prev:hover{
+	background-position: -93px -70px;
+}
+.secondSec .swiper-button-prev:after{
+	display: none;
+}
