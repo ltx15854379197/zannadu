@@ -1,0 +1,550 @@
+section{
+	position:relative;
+}
+section .yunbgc{
+	width: 100%;
+	height: 550px;
+	margin-top: 60px;
+	/*border:1px solid red;*/
+	background-image: url(../imgs/yunnan/photo.jpg);
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	filter:blur(10px);
+	z-index: -1;
+}
+section .mapbox {
+	width: 1000px;
+	margin:auto;
+	/*border:1px solid blue;*/
+	position:absolute;
+	left:50%;
+	top:0px;
+	transform: translate(-50%,0);
+}
+section .mapbox .country{
+	margin-top: 40px;
+	font-size: 20px;
+	color:white;
+}
+section .mapbox .country a{
+	color:white;
+	text-decoration:
+}
+section .mapbox .country a:hover{
+	text-decoration:underline;
+}
+section .mapbox  #allmap{
+	width: 100%;
+	height:400px;
+	margin-top:10px;
+	/*border:1px solid red;*/
+	position: relative;
+}
+section .mapbox #allmap .BMap_stdMpZoom .BMap_button {
+	width: 50px;
+	height: 50px;
+	/*background-color: white;*/
+	/*padding:10px;*/
+	/*background-size: 100% 100%;*/
+}
+section .mapbox .mapbox #allmap .BMapLabel{
+	display: none;
+}
+body>section{
+	width: 100%;
+	background-image: url(../imgs/common/bg-image-clouds.jpg);
+	background-size: 100% 100%;
+}
+section .container{
+	width: 1000px;
+	padding-top: 60px;
+}
+section .container h3{
+	font-size: 26px;
+	padding-left: 15px;
+} 
+section .container .row{
+	margin-top: 20px;
+	/*border:1px solid red;*/
+}
+section .container .row .thumbnail img{
+	width: 100%;
+	height: 177px;
+	/*border:1px solid red;*/
+	margin:0px;
+}
+section .container .row .thumbnail{
+	padding:0px;
+	border:none;
+}
+section .container .row .caption{
+	width: 200px;
+	height: 85px;
+	position: relative;
+}	
+section .container .row .caption p{
+	/*border:1px solid red;*/
+	width: 100%
+	font-size: 14px;
+	margin:0px;
+	margin-left: 10px;
+}
+section .container .row .caption .country{
+	margin-top: 10px;
+	/*border:1px solid red;*/
+	width:260px;	
+}
+section .container .row .thumbnail:hover{
+	background-color: #CB5977;
+}
+section .container .row .inUp .text{
+	color:white;
+	font-size: 14px;
+}
+section .container .row .inUp .continent{
+	color:white;
+	font-size: 8px;
+}
+/*目的地查询*/
+section .Choose{
+	width: 1000px;
+	margin:50px auto ;
+	z-index: 50px;
+}
+section .Choose .choosetext{
+	background-color: white;
+	border:1px solid transparent;
+}
+section .Choose .choosetext .placebox{
+	/*border:1px solid red;*/
+	margin-left: 50px;
+	margin-top: 50px;
+}
+section .Choose .choosetext .placebox .place{
+	font-size: 20px;
+	color:#95ACC3;
+}
+section .Choose .choosetext .placebox .countrybox{
+	/*border:1px solid red;*/
+	margin-top:20px;
+}
+section .Choose .choosetext .placebox .countrybox a{
+	/*border:1px solid red;*/
+	margin-right: 100px;
+	font-size: 16px;
+	display: inline-block;
+	width: 200px;
+}
+section .Choose .choosetext .placebox .countrybox a span{
+	color:#99A6BA;
+}
+.yunnanbgc{
+	width: 100%;
+	background-image:url();
+	background-color: #D3E9F7;
+	position: relative;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+.yunnanbgc .container .thumbnail{
+	border:none;
+	padding:0px;
+}
+.yunnanbgc .container .thumbnail img{
+	width: 100%;
+	height: 100%;
+	/*border:1px solid red;*/
+}
+.yunnanbgc .container .thumbnail .inUp .continent{
+	width: 250px;
+	color:white;
+}
+.yunnanbgc .container .thumbnail .caption{
+	height: 110px;
+}
+.yunnanbgc .container .thumbnail h4{
+	display: inline;
+}
+.yunnanbgc .container .thumbnail .china{
+	width: 150px;
+	color:color
+}
+.yunnanbgc .container .thumbnail .price{
+	font-size: 13px;
+	margin-top:25px;
+	margin-left: 100px;
+	/*border:1px solid red;*/
+	width:100%;
+	color:#C15672;
+}
+.yunnanbgc .container .thumbnail .inUp{
+	background-color: #C15672;
+}
+.yunnanbgc .container .thumbnail .inUp .price del{
+	color:white;
+}
+.yunnanbgc .container .thumbnail .price del{
+	font-size: 11px;
+	color:black;
+}
+.yunnanbgc .container .thumbnail .inUp .price{
+	color:white;
+}
+/*白条修饰*/
+section .cms-section .thumbnail .whitebars{
+  width: 100%;
+  height:12px;
+  color:black;
+  background-color:white;
+  opacity: 0.8;
+  /*border:1px solid red;*/
+  float: left;
+  position:absolute;
+  bottom:130px;
+  display:none;
+}
+section  .cms-section a:hover .thumbnail .whitebars{
+  display: block;
+}
+/*图表*/
+section .container .propellingText{
+  font-size: 25px;
+  float: left;
+}
+.yunnanbgc .container .propellingbox {
+	margin-bottom:10px;
+	/*border:1px solid red;*/
+}
+section .container .propellingProducts{
+  font-size: 20px;
+  /*border:1px solid red;*/
+  color:#D66382;
+  float: right;
+  margin:auto 0px;
+  position: relative;
+}
+section .container .propellingbox::after{
+  content: "";
+  display: block;
+  clear:both;
+}
+section .container .propellingbox span{
+   display: inline-block;
+}
+section .container .propellingbox .text{
+  /*border:1px solid red;*/
+  margin-bottom:0px;
+}
+section .container .propellingbox .picture{
+  /*border:1px solid red;*/
+  width: 40px;
+  height: 40px;
+  position:absolute;
+  bottom: -5px;
+  left:-42px;
+  background-image: url("../imgs/index/jiahao.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-color: #D66382;
+  border-radius: 20px;
+}
+section .container .propellingbox{
+  margin-bottom:30px;
+  padding-top: 10px;
+}
+section .container .propellingbox .text:hover{
+  text-decoration:underline;
+}
+
+/*轮模图1*/
+.yunnanbgc .swiper-container {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+.yunnanbgc .swiper-slide {
+     /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.yunnanbgc .container .swiper-pagination{
+	/*border:1px solid red;*/
+	position:absolute;
+	bottom:20px;
+	z-index: 20;	
+}
+.yunnanbgc .container .swiper-pagination span{
+	width: 15px;
+	height: 15px;
+	background-color: #C15672;
+}
+.yunnanbgc .container .swiper-wrapper{
+	padding-bottom:50px;
+}
+.yunnanbgc .container{
+	position: relative;
+}
+
+.yunnanbgc .container .swiper-button-next{
+	/*border:1px solid red;*/
+	width: 50px;
+	height:50px;
+	border-radius:25px;
+	position: absolute;
+	right:0px;
+	top:50%;
+	/*background-color: black;*/
+	background-image: url(../imgs/index/arrow.png);	
+	background-repeat: no-repeat;
+	background-position: -160px -5px;
+}
+.yunnanbgc .container .swiper-button-next:hover{
+	background-position: -160px -70px;
+}
+.yunnanbgc .container .swiper-button-next:after{
+	display: none;
+}
+.yunnanbgc .container .swiper-button-prev{
+	/*border:1px solid red;*/
+	width: 50px;
+	height:50px;
+	border-radius:25px;
+	position: absolute;
+	left:0px;
+	top:50%;
+	background-image: url(../imgs/index/arrow.png);	
+	background-repeat: no-repeat;
+	background-position: -90px -5px;
+}
+.yunnanbgc .container .swiper-button-prev:hover{
+	background-position: -93px -70px;
+}
+.yunnanbgc .container .swiper-button-prev:after{
+	display: none;
+}
+/*黑丝*/
+.balckbox{
+	background-image: url();
+	height: 100%;
+}
+.balckbox .pad{
+	/*border:1px solid red;*/
+}
+.balckbox h2{
+	color:white;
+	margin-bottom: 20px;
+}
+.balckbox .swiper-wrapper .swiper-slide{
+	/*border:1px solid red;*/
+	height: 400px;
+	display: block;
+}
+.balckbox .swiper-wrapper .swiper-slide .hech{
+	width: 100%;
+	height: 250px;
+	/*border:1px solid blue;*/
+	background-color: #465562;
+	display: flex;
+	position: relative;
+}
+.balckbox .swiper-wrapper .hech .roll{
+	width: 35%;
+	height: 100%;
+	/*border:1px solid red;*/
+	
+}
+.balckbox .swiper-wrapper .hech .roll .fly{
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	border:3px solid white;
+	margin:auto;
+	margin-top:30px;
+	background-image: url(../imgs/yunnan/fly.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.balckbox .swiper-wrapper .hech .roll a{
+	color:white;
+	display: block;
+	margin-top:20px;
+	margin-left:40px;	
+}
+.balckbox .swiper-wrapper .hech .roll a:hover{
+	color:#C15672;
+	text-decoration: underline;
+
+}
+.balckbox .swiper-wrapper .hech .text{
+	width: 250px;
+	height:200px;
+	/*border:1px solid red;*/
+	margin-left: 35px;
+	margin-top:20px;
+	background-color: white;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.balckbox .swiper-wrapper .hech:after{
+	content:"";
+	display: black;
+	border-right:20px solid transparent;
+	border-bottom:20px solid white;
+	border-top:20px solid transparent;
+	border-left:20px solid transparent;
+	transform: rotate(-90deg);
+	position: absolute;
+	left:163px;
+	top:70px;
+
+}
+.balckbox .swiper-wrapper .hotel {
+	width: 100%;
+	height: 150px;
+	/*border:1px solid blue;*/
+	background-color: white;
+	display: flex;
+	position:relative;
+}
+.balckbox .swiper-wrapper .hotel .picture{
+	display: block;
+	width: 150px;
+	height: 120px;
+	/*border:1px solid red;*/
+	margin-left:20px;
+	position: absolute;
+	top:10px;
+}
+.balckbox .swiper-wrapper .hotel .picture img{
+	width:100%;
+	height: 100%;
+}
+.balckbox .swiper-wrapper .hotel .placetext{
+	width: 250px;
+	height: 100px;
+	/*border:1px solid red;*/
+	position: absolute;
+	left:200px;
+	top:20px;
+}
+.balckbox .swiper-wrapper .hotel .placetext .star{
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	/*border:1px solid red;*/
+	background-color: #A77FA1;
+	background-image: url("../imgs/yunnan/星星.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	margin:0px;
+}
+.balckbox .swiper-wrapper .hotel .placetext .grade{
+	color:#9999A9;
+}
+.balckbox .swiper-wrapper .hotel .placetext .cc{
+	font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.balckbox .swiper-container {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+.balckbox .swiper-slide {
+     /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.balckbox .container .swiper-pagination{
+	/*border:1px solid red;*/
+	position:absolute;
+	bottom:20px;
+	z-index: 20;	
+}
+.balckbox .container .swiper-pagination span{
+	width: 15px;
+	height: 15px;
+	background-color: #C15672;
+}
+.balckbox .container .swiper-wrapper{
+	padding-bottom:50px;
+}
+.balckbox .container{
+	position: relative;
+}
+.balckbox{
+	background-image: url();
+	background-color: #262F36;
+}
+.balckbox .container .swiper-button-next{
+	/*border:1px solid red;*/
+	width: 50px;
+	height:50px;
+	border-radius:25px;
+	position: absolute;
+	right:0px;
+	top:50%;
+	/*background-color: black;*/
+	background-image: url(../imgs/index/arrow.png);	
+	background-repeat: no-repeat;
+	background-position: -160px -5px;
+}
+.balckbox .container .swiper-button-next:hover{
+	background-position: -160px -70px;
+}
+.balckbox .container .swiper-button-next:after{
+	display: none;
+}
+.balckbox .container .swiper-button-prev{
+	/*border:1px solid red;*/
+	width: 50px;
+	height:50px;
+	border-radius:25px;
+	position: absolute;
+	left:0px;
+	top:50%;
+	background-image: url(../imgs/index/arrow.png);	
+	background-repeat: no-repeat;
+	background-position: -90px -5px;
+}
+.balckbox .container .swiper-button-prev:hover{
+	background-position: -93px -70px;
+}
+.balckbox .container .swiper-button-prev:after{
+	display: none;
+}

@@ -313,6 +313,34 @@ footer{
 	height: 700px;
 	background: url(../imgs/common/footer_bg.png)no-repeat, linear-gradient(-180deg, rgba(124, 202, 234, 0.90) 0%, rgba(198, 232, 246, 0.46) 96%);
 }
+/*固定的咨询*/
+.seek{
+	width:70px;
+	height:70px;
+	/*border:1px solid red;*/
+	border-radius: 10px;
+	background-color: #C15672;
+	position:fixed;
+	right:0px;
+	top:300px;
+	z-index: 1000;
+}
+.seek .wechat{
+	/*border:1px solid blue;*/
+	width: 40px;
+	height: 30px;
+	margin:auto;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	background-image: url(../imgs/common/message.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.seek .wetext{
+	color:white;
+	font-size: 14px;
+	text-align: center;
+}
 /*footer section*/
 
 footer .footer-padding a{

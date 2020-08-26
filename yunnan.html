@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="plugin/bootstrap/css/bootstrap.css">
+	<script src="plugin/jquery-3.5.1.js"></script>
+	<script src="plugin/bootstrap/js/bootstrap.js"></script>
+	<link rel="stylesheet" href="plugin/swiper-bundle.css">
+	<link rel="stylesheet" href="plugin/swiper-bundle.css">
+	<script src="plugin/swiper-bundle.js"></script>
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/yunnan.css">
+	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=ZuT6It6euu0mxmhaooAcPfryKasFb56K"></script>
+</head>
+<body>
+	<header>
+		<div class="headbox">
+		<div class="headbgc">
+			<div class="headlogo">
+			</div>
+			<div class="input-group">
+      			<input type="text" class="form-control" placeholder="目的地/酒店/邮轮">
+      			<button type="submit" class="btn btn-default btn-lg headsearch">
+      			<span class="glyphicon glyphicon-search" style="color:white"></span>
+   			 </div>
+		</div>
+		</div>
+		<nav class="navto">
+		<div class="navbox">
+			<div class="birdlogo"></div>
+			<div class="barbox">
+			<ul class="bar">
+			<li><a href="" class="destination">目的地</a>
+				<div class="map">
+					<div class="area">
+						<h4>热门目的地</h4>
+						<hr>
+						<div class="hotplace">
+							<a href="">日本</a>
+							<a href="">东非</a>
+							<a href="">南部非洲</a>
+							<a href="">英国</a> 
+							<a href="">北欧</a>
+							<a href="">马尔代夫</a>
+							<a href="">泰国</a>
+							<a href="">印度尼西亚</a>
+							<a href="">斐济</a>
+							<a href="">中东与北非</a>
+							<a href="">东南亚与南亚</a>
+							<a href="">澳大利亚</a>
+							<a href="">新西兰</a>
+							<a href="">南极与北极</a>
+							<a href="">云南</a>
+							<a href="">浙江</a>
+							<a href="">海南</a>
+						</div>
+					</div>
+					<div class="area">
+						<h4>东亚</h4>
+						<hr>
+						<div class="hotplace">
+							<a href="">日本</a>
+							<a href="">中国</a>
+							<a href="">韩国</a>
+						</div>
+					</div>
+					<div class="area">
+						<h4>拉丁美洲</h4>
+						<hr>
+						<div class="hotplace">
+							<a href="">阿根廷</a>
+							<a href="">巴西</a>
+							<a href="">玻璃为多</a>
+							<a href="">秘鲁</a> 
+							<a href="">墨西哥</a>
+						</div>
+					</div>
+					<div class="area">
+						<h4>拉丁美洲</h4>
+						<hr>
+						<div class="hotplace">
+							<a href="">阿根廷</a>
+							<a href="">巴西</a>
+							<a href="">玻璃为多</a>
+							<a href="">秘鲁</a> 
+							<a href="">墨西哥</a>
+						</div>
+					</div>
+					<div class="area">
+						<h4>西欧与地中海</h4>
+						<hr>
+						<div class="hotplace">
+							<a href="">阿根廷</a>
+							<a href="">巴西</a>
+							<a href="">玻璃为多</a>
+							<a href="">秘鲁</a> 
+							<a href="">墨西哥</a>
+						</div>
+					</div>
+					<div class="area">
+						<h4>东欧与俄罗斯</h4>
+						<hr>
+						<div class="hotplace">
+							<a href="">阿根廷</a>
+							<a href="">巴西</a>
+							<a href="">玻璃为多</a>
+							<a href="">秘鲁</a> 
+							<a href="">墨西哥</a>
+						</div>
+					</div>
+					<div class="area">
+						<h4>大洋洲</h4>
+						<hr>
+						<div class="hotplace">
+							<a href="">阿根廷</a>
+							<a href="">巴西</a>
+							<a href="">玻璃为多</a>
+							<a href="">秘鲁</a> 
+							<a href="">墨西哥</a>
+						</div>
+					</div>
+					<div class="area">
+						<h4>东南亚与地中华</h4>
+						<hr>
+						<div class="hotplace">
+							<a href="">阿根廷</a>
+							<a href="">巴西</a>
+							<a href="">玻璃为多</a>
+							<a href="">秘鲁</a> 
+							<a href="">墨西哥</a>
+						</div>
+					</div>
+					<div class="area">
+						<h4>东欧与俄罗斯</h4>
+						<hr>
+						<div class="hotplace">
+							<a href="">阿根廷</a>
+							<a href="">巴西</a>
+							<a href="">玻璃为多</a>
+							<a href="">秘鲁</a> 
+							<a href="">墨西哥</a>
+						</div>
+					</div>
+					<div class="area">
+						<h4>大洋洲</h4>
+						<hr>
+						<div class="hotplace">
+							<a href="">阿根廷</a>
+							<a href="">巴西</a>
+							<a href="">玻璃为多</a>
+							<a href="">秘鲁</a> 
+							<a href="">墨西哥</a>
+						</div>
+					</div>
+					<div class="area">
+						<h4>东南亚与南亚</h4>
+						<hr>
+						<div class="hotplace">
+							<a href="">阿根廷</a>
+							<a href="">巴西</a>
+							<a href="">玻璃为多</a>
+							<a href="">秘鲁</a> 
+							<a href="">墨西哥</a>
+						</div>
+					</div>
+					<div class="area">
+						<h4>北美</h4>
+						<hr>
+						<div class="hotplace">
+							<a href="">阿根廷</a>
+							<a href="">巴西</a>
+							<a href="">玻璃为多</a>
+							<a href="">秘鲁</a> 
+							<a href="">墨西哥</a>
+						</div>
+					</div>
+					<div class="area">
+						<h4>东非</h4>
+						<hr>
+						<div class="hotplace">
+							<a href="">阿根廷</a>
+							<a href="">巴西</a>
+							<a href="">玻璃为多</a>
+							<a href="">秘鲁</a> 
+							<a href="">墨西哥</a>
+						</div>
+					</div>
+					<div class="area"></div>
+					<div class="area"></div>
+					<div class="area"></div>
+				</div>
+			</li>
+			<li><a href="" class="route">预定行程</a>
+				<div class="mapplace">
+					<div>
+					<h3>预定行程</h3>
+					<div class="project">
+						<div class="projectimg img1">
+							<div class="projecttext"><a href="">探索世界</a></div>
+						</div>
+						<div class="projectimg img2">
+							<div class="projecttext"><a href="">海外自由行</a></div>
+						</div>
+						<div class="projectimg img3">
+							<div class="projecttext"><a href="">轻奢小团</a></div>
+						</div>
+						<div class="projectimg img4">
+							<div class="projecttext"><a href="">大航海时代</a></div>
+						</div>
+						<div class="projectimg img5">
+							<div class="projecttext"><a href="">精品别墅</a></div>
+						</div>
+						<div class="projectimg img6">
+							<div class="projecttext"><a href="">精选酒店</a></div>
+						</div>
+						<div class="projectimg img7">
+							<div class="projecttext"><a href="">国内短假</a></div>
+						</div>
+						<div class="projectimg img8">
+							<div class="projecttext"><a href="">私人定制</a></div>
+						</div>
+					</div>
+				</div>
+					<div class="phone"></div>
+				</div>
+			</li>
+			<li><a href="">折扣</a></li>
+			<li><a href="">私人定制</a></li>
+			<li><a href="">活动</a></li>
+			</ul>
+		</div>
+		<div class="navsearch">
+			<input type="text" class="form-control searchbox" placeholder="目的地/酒店/邮轮">
+      			<button type="submit" class="btn btn-default btn-lg headsearch">
+      			<span class="glyphicon glyphicon-search" style="color:red"></span>
+		</div>
+		<div class="puton">
+			<a href="">登录</a>
+			<a href="">注册</a>
+		</div>
+		</div>
+		</nav>
+	</header>
+	<div class="seek">
+		<div class="wechat"></div>
+		<div class="wetext">在线咨询</div>
+	</div>
+	<section>
+		<div class="yunbgc">	
+		</div>
+		<div class="mapbox">
+				<div class="country">
+					<a href="">中国</a>>云南
+				</div>
+				<div id="allmap">
+				</div>
+		</div>	
+	</section>
+	<section>
+		<div class="container cms-section">
+			<h3 class="row">云南目的地 Yunnan Destinations</h3>
+			<!-- 第一行 -->
+			<div class="row firstRow">
+				<div class="col-xs-3">
+					<a href="">
+						<div class="thumbnail" title="莱雅三卧别墅">
+					     	<img src="./imgs/yunnan/trip0.1.jpg" alt="...">
+					     	<div class="caption inDwon">
+					        	<p class="country">大理</p>
+					        	<p class="continent">dali</p>
+					     	</div>
+					    </div>
+				    </a>
+				</div>
+				<div class="col-xs-3">
+					<a href="">
+						<div class="thumbnail" title="密斯卡湾栀子花别墅">
+					     	<img src="./imgs/yunnan/trip1.2.jpg" alt="...">
+					     	<div class="caption inDwon">
+					        	<p class="country">西双版纳</p>
+					        	<p class="continent">Xishuangbanna</p>
+					     	</div>
+					    </div>
+				    </a>
+				</div>
+				<div class="col-xs-3">
+					<a href="">
+						<div class="thumbnail" title="密斯卡湾栀子花别墅">
+					     	<img src="./imgs/yunnan/trip1.3.jpg" alt="...">
+					     	<div class="caption inDwon">
+					     		<p class="country">丽江</p>
+					     		<p class="continent">Lijiang</p>
+					     	</div>
+					    </div>
+				    </a>
+				</div>
+				<div class="col-xs-3">
+					<a href="">
+						<div class="thumbnail" title="密斯卡湾诗罗别墅">
+					     	<img src="./imgs/yunnan/trip1.4.jpg" alt="...">
+					     	<div class="caption inDwon">
+					     		<p class="country">昆明</p>
+					        	<p class="continent">Kunming</p>
+					     	</div>
+					    </div>
+				    </a>
+				</div>
+			</div>
+			<!-- 第二行 -->
+			<div class="row firstRow">
+				<div class="col-xs-3">
+					<a href="">
+						<div class="thumbnail" title="莱雅三卧别墅">
+					     	<img src="./imgs/destination/photo2.1.jpg" alt="...">
+					     	<div class="caption inDwon">
+					        	<p class="country">红河哈尼族黎族自治州</p>
+					        	<p class="continent">Honghe</p>
+					     	</div>
+					    </div>
+				    </a>
+				</div>
+				<div class="col-xs-3">
+					<a href="">
+						<div class="thumbnail" title="密斯卡湾栀子花别墅">
+					     	<img src="./imgs/destination/photo2.2.jpg" alt="...">
+					     	<div class="caption inDwon">
+					        	<p class="country">腾冲</p>
+					        	<p class="continent">Tengchong</p>
+					     	</div>
+					    </div>
+				    </a>
+				</div>
+				<div class="col-xs-3">
+					<a href="">
+						<div class="thumbnail" title="密斯卡湾栀子花别墅">
+					     	<img src="./imgs/yunnan/trip2.3.jpg" alt="...">
+					     	<div class="caption inDwon">
+					     		<p class="country">迪庆藏族自治州</p>
+					     		<p class="continent">Diqing</p>
+					     	</div>
+					    </div>
+				    </a>
+				</div>
+				<div class="col-xs-3" style="display: none">
+					<a href="">
+						<div class="thumbnail" title="密斯卡湾诗罗别墅">
+					     	<img src="./imgs/destination/photo2.4.jpg" alt="...">
+					     	<div class="caption inDwon">
+					     		<p class="country">英国</p>
+					        	<p class="continent">欧洲</p>
+					     	</div>
+					     	<div class="caption inUp" style="display: none">
+								<p class="country text">UK</p>
+					        	<p class="continent">Europe</p>
+					     	</div>
+					    </div>
+				    </a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="yunnanbgc">
+		<div class="container cms-section ">
+			<h3 class="row">精选酒店 · 云南 Hotels in Yunnan</h3>
+			<!-- 第一行 -->
+			<div class="row firstRow">
+				<div class="col-xs-4">	
+					<a href="">
+						<div class="thumbnail" title="莱雅三卧别墅">
+					     	<img src="./imgs/yunnan/trip3.1.jpg" alt="...">
+					     	<div class="caption inDwon">
+					        	<p class="country">大研安缦</p>
+					        	<p class="continent">中国，云南，丽江</p>
+					     	</div>
+					     	<div class="caption inUp" style="display: none">
+					        	<p class="country text">Amandayan</p>
+					        	<p>Lijiang,Yunnan,China</p>
+					        	<div class="continent">
+					        		<h4>￥1.901</h4>起/晚(未来一个月中最低价格)
+					        	</div>
+					     	</div>
+					    </div>
+				    </a>
+				</div>
+				<div class="col-xs-8">
+					<a href="">
+						<div class="thumbnail" title="密斯卡湾栀子花别墅">
+					     	<img src="./imgs/yunnan/trip3.2.jpg" alt="...">
+					     	<div class="caption inDwon">
+					        	<p class="country">Banyan Tree Ringha</p>
+					        	<p class="continent">Diqing,China</p>
+					     	</div>
+					     	<div class="caption inUp" style="display: none">
+					     		<p class="country text">仁安锐榕庄</p>
+					     		<p class="china">中国，迪庆藏族自治州</p>
+					     		<div class="continent">
+					        		<h4>￥1.901</h4>起/晚(未来一个月中最低价格)
+					        	</div>
+					     	</div>
+					    </div>
+				    </a>
+				</div>
+			</div>
+		</div>
+		<div class="container cms-section pad">
+			<div class="swiper-container">
+				<div class="propellingbox">
+	  				<div class="propellingText">国内短假 · 云南</div>
+	  				<a class="propellingProducts" href="">
+	  					<span class="picture"></span>
+	  					<span class="text">27 个国内短假 · 云南</span>
+	  				</a>
+	  			</div>
+	  			<div class="swiper-wrapper">
+	  				<div class="swiper-slide">	
+						<a href="">
+							<div class="thumbnail" title="莱雅三卧别墅">
+						     	<img src="./imgs/yunnan/trip6.1.jpg" alt="...">
+						     	<div class="whitebars">
+								</div>
+						     	<div class="caption inDwon">
+						        	<p class="country mes">香格里拉阿若康巴·南索达庄园特价套餐--赞享升级</p>
+						        	<div class="price">
+						        		<del>￥3800</del>
+						        		<h4>￥2,488</h4>
+						        		起/双人套餐
+						        	</div>
+						     	</div>
+						     	<div class="caption inUp" style="display: none">
+						        	<p class="country mes">香格里拉阿若康巴·南索达庄园特价套餐--赞享升级</p>
+						        	<div class="price">
+						        		<del>￥3800</del>
+						        		<h4>￥2,488</h4>
+						        		起/双人套餐
+						        	</div>
+						     	</div>
+						    </div>
+					    </a>
+					</div>
+					<div class="swiper-slide">	
+						<a href="">
+							<div class="thumbnail" title="莱雅三卧别墅">
+						     	<img src="./imgs/yunnan/trip6.2.jpg" alt="...">
+						     	<div class="whitebars">
+								</div>
+						     	<div class="caption inDwon">
+						        	<p class="country mes">香格里拉阿若康巴·南索达庄园特价套餐--赞享升级</p>
+						        	<div class="price">
+						        		<del>￥3800</del>
+						        		<h4>￥2,488</h4>
+						        		起/双人套餐
+						        	</div>
+						     	</div>
+						     	<div class="caption inUp" style="display: none">
+						        	<p class="country mes">香格里拉阿若康巴·南索达庄园特价套餐--赞享升级</p>
+						        	<div class="price">
+						        		<del>￥3800</del>
+						        		<h4>￥2,488</h4>
+						        		起/双人套餐
+						        	</div>
+						     	</div>
+						    </div>
+					    </a>
+					</div>
+					<div class="swiper-slide">	
+						<a href="">
+							<div class="thumbnail" title="莱雅三卧别墅">
+						     	<img src="./imgs/yunnan/trip1.1.jpg" alt="...">
+						     	<div class="whitebars">
+								</div>
+						     	<div class="caption inDwon">
+						        	<p class="country mes">香格里拉阿若康巴·南索达庄园特价套餐--赞享升级</p>
+						        	<div class="price">
+						        		<del>￥3800</del>
+						        		<h4>￥2,488</h4>
+						        		起/双人套餐
+						        	</div>
+						     	</div>
+						     	<div class="caption inUp" style="display: none">
+						        	<p class="country mes">香格里拉阿若康巴·南索达庄园特价套餐--赞享升级</p>
+						        	<div class="price">
+						        		<del>￥3800</del>
+						        		<h4>￥2,488</h4>
+						        		起/双人套餐
+						        	</div>
+						     	</div>
+						    </div>
+					    </a>
+					</div>
+					<div class="swiper-slide">	
+						<a href="">
+							<div class="thumbnail" title="莱雅三卧别墅">
+						     	<img src="./imgs/yunnan/trip6.4.jpg" alt="...">
+						     	<div class="whitebars">
+								</div>
+						     	<div class="caption inDwon">
+						        	<p class="country mes">香格里拉阿若康巴·南索达庄园特价套餐--赞享升级</p>
+						        	<div class="price">
+						        		<del>￥3800</del>
+						        		<h4>￥2,488</h4>
+						        		起/双人套餐
+						        	</div>
+						     	</div>
+						     	<div class="caption inUp" style="display: none">
+						        	<p class="country mes">香格里拉阿若康巴·南索达庄园特价套餐--赞享升级</p>
+						        	<div class="price">
+						        		<del>￥3800</del>
+						        		<h4>￥2,488</h4>
+						        		起/双人套餐
+						        	</div>
+						     	</div>
+						    </div>
+					    </a>
+					</div>
+					<div class="swiper-slide">	
+						<a href="">
+							<div class="thumbnail" title="莱雅三卧别墅">
+						     	<img src="./imgs/yunnan/trip6.5.jpg" alt="...">
+						     	<div class="whitebars">
+								</div>
+						     	<div class="caption inDwon">
+						        	<p class="country mes">香格里拉阿若康巴·南索达庄园特价套餐--赞享升级</p>
+						        	<div class="price">
+						        		<del>￥3800</del>
+						        		<h4>￥2,488</h4>
+						        		起/双人套餐
+						        	</div>
+						     	</div>
+						     	<div class="caption inUp" style="display: none">
+						        	<p class="country mes">香格里拉阿若康巴·南索达庄园特价套餐--赞享升级</p>
+						        	<div class="price">
+						        		<del>￥3800</del>
+						        		<h4>￥2,488</h4>
+						        		起/双人套餐
+						        	</div>
+						     	</div>
+						    </div>
+					    </a>
+					</div>
+					<div class="swiper-slide">	
+						<a href="">
+							<div class="thumbnail" title="莱雅三卧别墅">
+						     	<img src="./imgs/yunnan/trip6.6.jpg" alt="...">
+						     	<div class="whitebars">
+								</div>
+						     	<div class="caption inDwon">
+						        	<p class="country mes">香格里拉阿若康巴·南索达庄园特价套餐--赞享升级</p>
+						        	<div class="price">
+						        		<del>￥3800</del>
+						        		<h4>￥2,488</h4>
+						        		起/双人套餐
+						        	</div>
+						     	</div>
+						     	<div class="caption inUp" style="display: none">
+						        	<p class="country mes">香格里拉阿若康巴·南索达庄园特价套餐--赞享升级</p>
+						        	<div class="price">
+						        		<del>￥3800</del>
+						        		<h4>￥2,488</h4>
+						        		起/双人套餐
+						        	</div>
+						     	</div>
+						    </div>
+					    </a>
+					</div>
+					<div class="swiper-slide">	
+						<a href="">
+							<div class="thumbnail" title="莱雅三卧别墅">
+						     	<img src="./imgs/yunnan/trip6.7.jpg" alt="...">
+						     	<div class="whitebars">
+								</div>
+						     	<div class="caption inDwon">
+						        	<p class="country mes">香格里拉阿若康巴·南索达庄园特价套餐--赞享升级</p>
+						        	<div class="price">
+						        		<del>￥3800</del>
+						        		<h4>￥2,488</h4>
+						        		起/双人套餐
+						        	</div>
+						     	</div>
+						     	<div class="caption inUp" style="display: none">
+						        	<p class="country mes">香格里拉阿若康巴·南索达庄园特价套餐--赞享升级</p>
+						        	<div class="price">
+						        		<del>￥3800</del>
+						        		<h4>￥2,488</h4>
+						        		起/双人套餐
+						        	</div>
+						     	</div>
+						    </div>
+					    </a>
+					</div>
+					<div class="swiper-slide">	
+						<a href="">
+							<div class="thumbnail" title="莱雅三卧别墅">
+						     	<img src="./imgs/yunnan/trip6.8.jpg" alt="...">
+						     	<div class="whitebars">
+								</div>
+						     	<div class="caption inDwon">
+						        	<p class="country mes">香格里拉阿若康巴·南索达庄园特价套餐--赞享升级</p>
+						        	<div class="price">
+						        		<del>￥3800</del>
+						        		<h4>￥2,488</h4>
+						        		起/双人套餐
+						        	</div>
+						     	</div>
+						     	<div class="caption inUp" style="display: none">
+						        	<p class="country mes">香格里拉阿若康巴·南索达庄园特价套餐--赞享升级</p>
+						        	<div class="price">
+						        		<del>￥3800</del>
+						        		<h4>￥2,488</h4>
+						        		起/双人套餐
+						        	</div>
+						     	</div>
+						    </div>
+					    </a>
+					</div>
+					<div class="swiper-slide">	
+						<a href="">
+							<div class="thumbnail" title="莱雅三卧别墅">
+						     	<img src="./imgs/yunnan/trip6.9.jpg" alt="...">
+						     	<div class="whitebars">
+								</div>
+						     	<div class="caption inDwon">
+						        	<p class="country mes">香格里拉阿若康巴·南索达庄园特价套餐--赞享升级</p>
+						        	<div class="price">
+						        		<del>￥3800</del>
+						        		<h4>￥2,488</h4>
+						        		起/双人套餐
+						        	</div>
+						     	</div>
+						     	<div class="caption inUp" style="display: none">
+						        	<p class="country mes">香格里拉阿若康巴·南索达庄园特价套餐--赞享升级</p>
+						        	<div class="price">
+						        		<del>￥3800</del>
+						        		<h4>￥2,488</h4>
+						        		起/双人套餐
+						        	</div>
+						     	</div>
+						    </div>
+					    </a>
+					</div>
+	  			</div>
+				<!-- Add Pagination -->
+			    <div class="swiper-pagination"></div>
+			    <!-- Add Arrows -->
+			    <div class="swiper-button-next"></div>
+			    <div class="swiper-button-prev"></div>
+			</div>
+		</div>
+	</section>	
+	<section class="balckbox">
+		<div class="container cms-section pad">
+			<div class="swiper-container">
+				<h2>赞粉评论 · 云南 Traveler reviews</h2>
+	  			<div class="swiper-wrapper">
+	  				<div class="swiper-slide">	
+	  					<div class="hech">
+	  						<div class="roll">
+	  							<div class="fly"></div>
+	  							<a href="">499543516</a>
+	  						</div>
+	  						<div class="text">
+	  							确实看起来好美，希望能再次独行。
+	  						</div>
+	  					</div>
+	  					<div class="hotel">
+	  						<a href="" class="picture">
+	  							<img src="imgs/yunnan/222.jpg" alt="">
+	  						</a>
+	  						<div class="placetext">
+	  							<a href="">香格里拉大酒店</a>
+	  							<p>中国,迪庆藏族自治州,茨中村</p>
+	  							<span class="star"></span>
+	  							<span class="star"></span>
+	  							<span class="star"></span>
+	  							<span class="star"></span>
+	  							<span class="star"></span>
+	  							<span class="grade cc">5.0 分</span>
+	  							<span class="grade">(3条评论)</span>
+
+	  						</div>
+	  					</div>
+					</div>
+					<div class="swiper-slide">	
+	  					<div class="hech">
+	  						<div class="roll">
+	  							<div class="fly"></div>
+	  							<a href="">499543516</a>
+	  						</div>
+	  						<div class="text">
+	  							确实看起来好美，希望能再次独行。
+	  						</div>
+	  					</div>
+	  					<div class="hotel">
+	  						<a href="" class="picture">
+	  							<img src="imgs/yunnan/222.jpg" alt="">
+	  						</a>
+	  						<div class="placetext">
+	  							<a href="">香格里拉大酒店</a>
+	  							<p>中国,迪庆藏族自治州,茨中村</p>
+	  							<span class="star"></span>
+	  							<span class="star"></span>
+	  							<span class="star"></span>
+	  							<span class="star"></span>
+	  							<span class="star"></span>
+	  							<span class="grade cc">5.0 分</span>
+	  							<span class="grade">(3条评论)</span>
+
+	  						</div>
+	  					</div>
+					</div>
+					<div class="swiper-slide">	
+	  					<div class="hech">
+	  						<div class="roll">
+	  							<div class="fly"></div>
+	  							<a href="">499543516</a>
+	  						</div>
+	  						<div class="text">
+	  							确实看起来好美，希望能再次独行。
+	  						</div>
+	  					</div>
+	  					<div class="hotel">
+	  						<a href="" class="picture">
+	  							<img src="imgs/yunnan/222.jpg" alt="">
+	  						</a>
+	  						<div class="placetext">
+	  							<a href="">香格里拉大酒店</a>
+	  							<p>中国,迪庆藏族自治州,茨中村</p>
+	  							<span class="star"></span>
+	  							<span class="star"></span>
+	  							<span class="star"></span>
+	  							<span class="star"></span>
+	  							<span class="star"></span>
+	  							<span class="grade cc">5.0 分</span>
+	  							<span class="grade">(3条评论)</span>
+
+	  						</div>
+	  					</div>
+					</div>
+					<div class="swiper-slide">	
+	  					<div class="hech">
+	  						<div class="roll">
+	  							<div class="fly"></div>
+	  							<a href="">499543516</a>
+	  						</div>
+	  						<div class="text">
+	  							确实看起来好美，希望能再次独行。
+	  						</div>
+	  					</div>
+	  					<div class="hotel">
+	  						<a href="" class="picture">
+	  							<img src="imgs/yunnan/222.jpg" alt="">
+	  						</a>
+	  						<div class="placetext">
+	  							<a href="">香格里拉大酒店</a>
+	  							<p>中国,迪庆藏族自治州,茨中村</p>
+	  							<span class="star"></span>
+	  							<span class="star"></span>
+	  							<span class="star"></span>
+	  							<span class="star"></span>
+	  							<span class="star"></span>
+	  							<span class="grade cc">5.0 分</span>
+	  							<span class="grade">(3条评论)</span>
+
+	  						</div>
+	  					</div>
+					</div>
+					<div class="swiper-slide">	
+	  					<div class="hech">
+	  						<div class="roll">
+	  							<div class="fly"></div>
+	  							<a href="">499543516</a>
+	  						</div>
+	  						<div class="text">
+	  							确实看起来好美，希望能再次独行。
+	  						</div>
+	  					</div>
+	  					<div class="hotel">
+	  						<a href="" class="picture">
+	  							<img src="imgs/yunnan/222.jpg" alt="">
+	  						</a>
+	  						<div class="placetext">
+	  							<a href="">香格里拉大酒店</a>
+	  							<p>中国,迪庆藏族自治州,茨中村</p>
+	  							<span class="star"></span>
+	  							<span class="star"></span>
+	  							<span class="star"></span>
+	  							<span class="star"></span>
+	  							<span class="star"></span>
+	  							<span class="grade cc">5.0 分</span>
+	  							<span class="grade">(3条评论)</span>
+
+	  						</div>
+	  					</div>
+					</div>
+					<div class="swiper-slide">	
+	  					<div class="hech">
+	  						<div class="roll">
+	  							<div class="fly"></div>
+	  							<a href="">499543516</a>
+	  						</div>
+	  						<div class="text">
+	  							确实看起来好美，希望能再次独行。
+	  						</div>
+	  					</div>
+	  					<div class="hotel">
+	  						<a href="" class="picture">
+	  							<img src="imgs/yunnan/222.jpg" alt="">
+	  						</a>
+	  						<div class="placetext">
+	  							<a href="">香格里拉大酒店</a>
+	  							<p>中国,迪庆藏族自治州,茨中村</p>
+	  							<span class="star"></span>
+	  							<span class="star"></span>
+	  							<span class="star"></span>
+	  							<span class="star"></span>
+	  							<span class="star"></span>
+	  							<span class="grade cc">5.0 分</span>
+	  							<span class="grade">(3条评论)</span>
+
+	  						</div>
+	  					</div>
+					</div>
+	  			</div>
+				<!-- Add Pagination -->
+			    <div class="swiper-pagination"></div>
+			    <!-- Add Arrows -->
+			    <div class="swiper-button-next"></div>
+			    <div class="swiper-button-prev"></div>
+			</div>
+		</div>
+		<div class="goTopBtnBox">
+			<div class="goTopBtn" ><span>返回顶部</span></div>
+		</div>
+	</section>
+	<footer class="">
+		<div class="col3 footer-padding container">
+			<ul class="no-bullets">
+				<li><h4>联系我们</h4></li>
+				<li class="phone-number">客服热线<a href="">400-626-0698</a></li>
+				<li class="phone-number">广告合作<a href="">ad@zanadu.cn</a></li>
+				<li class="color-gray"><a href="">info@zanadu.cn</a></li>
+			</ul>
+			<ul>
+				<li><h4>赞那度微信开通</h4></li>
+				<li class="color-green">微信服务号<span class="icon-wechat"></span></li>
+				<li><a href="">赞那度旅行顾问</a></li>
+				<li><a href="">旅行产品与服务</a></li>
+				<li class="color-green">微信订阅号<span class="icon-wechat"></span></li>
+				<li><a href="">赞那度旅行人生</a></li>
+				<li><a href="">旅行体验 & 生活方式</a></li>
+			</ul>
+			<ul>
+				<li><h4>关于赞那度</h4></li>
+				<li><a href="">关于我们</a></li>
+				<li><a href="">团队介绍</a></li>
+				<li><a href="">媒体报道</a></li>
+				<li><a href="">工作机会</a></li>
+			</ul>
+			<ul>
+				<li><h4>技术支持</h4></li>
+				<li><a href="">隐私政策</a></li>
+				<li><a href="">服务条款</a></li>
+				<li><a href="">联系我们</a></li>
+				<li><a href="">合作伙伴</a></li>
+			</ul>
+			<div class="clearfix"></div>
+		</div>
+		<div class="col3 contact cloud-login container">
+			<div class="cprite">
+				<ul class="nav nav-pills">
+					<li class="weibo"><a href=""></a></li>
+					<li class="youku"><a href=""></a></li>
+					<li class="tencent"><a href=""></a></li>
+				</ul>
+
+			</div>
+			<div class="clearfix"></div>
+			<div class="row">
+				<div class="col-xs-1"></div>
+				<div class="col-xs-3">欢迎来到赞那度，快来<a href="">注册</a>吧！</div>
+				<div class="col-xs-4"></div>
+				<div class="col-xs-2"><a href="">切换到手机版浏览</a></div>
+			</div>
+		</div>
+		<div class="qr-zanaducn"></div>
+		<div class="clearfix cloud-mask"></div>
+		<div class="center text-center">
+			<p>北京赞那度国际旅行社有限公司，旅行社业务经营许可证编号：L-BJ-CJ00559</p>
+			<div>Copyright ZANADU赞那度 2011-2020 | 
+				<a href="">京ICP备 11041827号 | </a>
+				<a href="">京ICP证120221 | </a>
+				<a href=""><span></span>京公网安备11010502036479号 | </a>
+			</div>
+			<div class="vertical-black"></div>
+			<div class="footer">
+					<div class="move"></div>
+			</div>
+		</div>
+	</footer>
+	<script src="js/yunnan.js"></script>
+	<script src="js/common.js"></script>
+
+</body>
+</html>
