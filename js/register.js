@@ -189,16 +189,19 @@
 })(jQuery, window, document);
 $(function () {
     var slider = new SliderUnlock("#slider",{
-            successLabelTip : "验证成功"    
+            successLabelTip : "验证成功" 
         },function(){
             alert("验证成功,即将跳转至#");
             window.location.href="#";
             //以下四行设置恢复初始，不需要可以删除
-            setTimeout(function(){
-                $("#labelTip").html("拖动滑块验证");
+                $("#tel-error").show();
+                setTimeout(function(){
+                $("#labelTip").html("请向右滑动获取验证码");
                 $("#labelTip").css("color","#787878");
                 },2000);
-            slider.init();
+            slider.init(); 
+            
+            
         });
     slider.init();
 })
@@ -233,5 +236,30 @@ $(function(){
     $(".projectimg").click(function(){
         console.log(1)
         location.href="./exploer_the_world.html"
+    })
+// 下拉框
+    var china=$(".china"),
+        sanjiao=$(".sanjiao");
+        china.val("中国 +86");
+    china.on("click",function(){
+        sanjiao.css({
+            "border-right":"8px solid transparent",
+            "border-left":"8px solid transparent",
+            "border-top":"8px solid transparent",
+            "border-bottom":"8px solid black",
+            "top":"14px"
+        })
+        $(".list").slideToggle(300);
+    })
+    $(".list li").on("click",function(e){
+        sanjiao.css({
+            "border-right":"8px solid transparent",
+            "border-left":"8px solid transparent",
+            "border-bottom":"8px solid transparent",
+            "border-top":"8px solid black",
+            "top":"18px"
+        })
+        $(".list").slideUp(300);
+        china.val($(this).text());
     })
 });
