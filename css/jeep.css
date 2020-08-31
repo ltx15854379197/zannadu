@@ -111,6 +111,10 @@ body .videoweb{
 .cms-section .col-xs-6>a:hover .thumbnail .percent-recommended{
 	display: block;
 }
+.firstSec{
+	width: 100%;
+	overflow: hidden;
+}
 .firstSec .inUp s{
 	font-size: 0.7em;
 	text-decoration: none;
@@ -166,11 +170,11 @@ body .videoweb{
 .secondImgbox{
 	background-image: url(../imgs/jeep/slide3-1-1.jpg);
 }
-.btn{
+.secondSec.btn{
 	position:relative;
 }
 /*切换路况摁扭*/
-.btn{
+.secondSec .btn{
 	position:absolute;
 	top: 70px;
 	right: 150px;
@@ -186,6 +190,7 @@ body .videoweb{
 	top:170px;
 	z-index: 1;
 }
+
 
 
 
