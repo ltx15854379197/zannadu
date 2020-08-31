@@ -1036,6 +1036,26 @@ body .full .fullbox{
 	margin-top: 30px;
 	position: relative;
 }
+#username-error{
+	/*border:1px solid red;*/
+	font-size:14px;
+	font-weight: normal;
+	padding-left: 150px;
+	background-image:url(../imgs/hotel/叹号.png);
+	background-repeat: no-repeat;
+	background-position: 130px 2px;
+
+}
+#date-error{
+	/*border:1px solid red;*/
+	font-size:14px;
+	font-weight: normal;
+	padding-left: 140px;
+	background-image:url(../imgs/hotel/叹号.png);
+	background-repeat: no-repeat;
+	color:#C15672;
+	background-position: 120px 2px;
+}
 .blue .nametel .comment{
 	color:#C55472;
 	margin-top: 0px;

@@ -331,7 +331,24 @@ $(function(){
        }  
     })
 // 规则
-    
+$(".nametel").validate({
+    rules:{
+        username:{
+            required:true
+        },
+        date:{
+            required:true
+        }
+    },
+    messages:{
+        username:{
+            required:"付款人姓名 不可为空白"
+        },
+         date:{
+            required:"入住日期 不可为空白"
+        }
+    }
+})  
 
 
 

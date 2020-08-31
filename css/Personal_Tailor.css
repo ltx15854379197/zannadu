@@ -303,5 +303,70 @@ label.error {
 
   color: red;
 }
+#firstname-error{
+	/*border:1px solid red;*/
+	font-size:14px;
+	font-weight: normal;
+	padding-left: 20px;
+	background-image:url(../imgs/hotel/叹号.png);
+	background-repeat: no-repeat;
+	color:#C15672;
+	background-position: 0px 2px;
+}
+#lastname-error{
+	/*border:1px solid red;*/
+	font-size:14px;
+	font-weight: normal;
+	padding-left: 20px;
+	background-image:url(../imgs/hotel/叹号.png);
+	background-repeat: no-repeat;
+	color:#C15672;
+	background-position: 0px 2px;
+}
+#phone-error{
+	/*border:1px solid red;*/
+	font-size:14px;
+	font-weight: normal;
+	padding-left: 20px;
+	background-image:url(../imgs/hotel/叹号.png);
+	background-repeat: no-repeat;
+	color:#C15672;
+	background-position: 0px 2px;
+}
+#email-error{
+	/*border:1px solid red;*/
+	font-size:14px;
+	font-weight: normal;
+	padding-left: 20px;
+	background-image:url(../imgs/hotel/叹号.png);
+	background-repeat: no-repeat;
+	color:#C15672;
+	background-position: 0px 2px;
+}
+#colorFout-error{
+	/*border:1px solid red;*/
+	font-size:14px;
+	font-weight: normal;
+	padding-left: 20px;
+	background-image:url(../imgs/hotel/叹号.png);
+	background-repeat: no-repeat;
+	color:#C15672;
+	background-position: 0px 2px;
+}
+#go-off-error{
+	/*border:1px solid red;*/
+	font-size:14px;
+	font-weight: normal;
+	padding-left: 20px;
+	background-image:url(../imgs/hotel/叹号.png);
+	background-repeat: no-repeat;
+	color:#C15672;
+	background-position: 0px 2px;
+}
+#lianxi{
+	color:white;
+	text-align: center;
+	margin-top: 20px;
+}
 
 

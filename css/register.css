@@ -141,3 +141,33 @@ label.error {
 .Row a{
   color: #7F96AD;
 }
+#state-error{
+  /*border:1px solid red;*/
+  font-size:14px;
+  font-weight: normal;
+  padding-left: 20px;
+  background-image:url(../imgs/hotel/叹号.png);
+  background-repeat: no-repeat;
+  color:#C15672;
+  background-position: 0px 2px;
+}
+#tel-error{
+  /*border:1px solid red;*/
+  font-size:14px;
+  font-weight: normal;
+  padding-left: 20px;
+  background-image:url(../imgs/hotel/叹号.png);
+  background-repeat: no-repeat;
+  color:#C15672;
+  background-position: 0px 2px;
+}
+#pwd-error{
+  /*border:1px solid red;*/
+  font-size:14px;
+  font-weight: normal;
+  padding-left: 20px;
+  background-image:url(../imgs/hotel/叹号.png);
+  background-repeat: no-repeat;
+  color:#C15672;
+  background-position: 0px 2px;
+}

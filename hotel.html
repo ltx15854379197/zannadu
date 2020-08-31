@@ -11,6 +11,9 @@
 	<link rel="stylesheet" href="css/common.css">
 	<link rel="stylesheet" href="css/hotel.css">
 	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=ZuT6It6euu0mxmhaooAcPfryKasFb56K"></script>
+	<script src="plugin/jquery.validate.js"></script>
+	<script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+	<script src="plugin/messages_zh.js"></script>
 </head>
 <body>
 	<header>
@@ -684,11 +687,11 @@
 				</div>
 				<div class="pink">请选择套餐订购数量</div>
 				<form action="" class="nametel"> 
-					<label class="comment name">付款人姓名 *<input type="text"></label>
+					<label class="comment name">付款人姓名 *<input type="text" name="username"></label>
 					<label class="comment tel">付款人手机 *<input type="tel"></label>
 					<label class="date"><input type="checkbox" class="chose">您是否已经有了确定入住的日期 ？</label>
 					<div class="remainbox">
-						<label class="remain">入住日期<input type="date"></label>
+						<label class="remain">入住日期<input type="date" name="date"></label>
 						<label class="remain">离开日期<input type="date"></label>
 						<label class="remain room">需房间数<input type="text" value="1"></label>
 						<span class="sanjiao3"></span>
@@ -704,7 +707,7 @@
 						</ul>
 						<label class="remain">备注<textarea name="" id="" cols="30" rows="10"></textarea></label>
 					</div>
-					<input type="button" class="input" value="现在付款">	
+					<input type="submit" class="input" value="现在付款">	
 				</form>
 			</div>
 			<div class="tripbox">
