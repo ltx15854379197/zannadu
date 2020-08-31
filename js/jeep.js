@@ -21,7 +21,6 @@ $(function(){
                 "bottom":"0px",
                 "top":"5px",
                 "left":"20%"
-                // "transform":"translate(-50%,0)"
             })
         }
         if(h<1800){
@@ -31,17 +30,13 @@ $(function(){
 })
 // 视频部分
 $(function(){
-
-
     var h=$(window).height(),
         w=$(window).width();
-         // console.log(w,h);
     var play=$(".play"),
         body=$("body"),
         video=$(".videoweb");
         play.on("click",function(e){
             video.show();
-            // body.on("scroll mousewheel" ,stopScrolling)
             body.css({
                 "width":"100%",
                 "height":"100%",

@@ -28,7 +28,6 @@ body .firstSec{
 .firstSec .cms-section .col-xs-4 .caption>div{
 	height: 30px;
 	line-height: 30px;
-
 }
 .cms-section .col-xs-4 .caption>div span{
 	padding-bottom: 5px;
@@ -50,8 +49,6 @@ body .firstSec{
 	display: none;
 	position:absolute;
 	top: 0px;
-/*	position: relative;
-*/ 	
 }
  .cms-section .percent-recommended .recommended{
 	width: 100px;

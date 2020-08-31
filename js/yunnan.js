@@ -99,7 +99,6 @@ $(function(){
         var inUp=_this.children(".inUp")
         $(inUp).css("display","none")
         $(inDwon).css("display","block")
-        
     })
 // 轮模图1
 	var swiper = new Swiper('.yunnanbgc .swiper-container', {

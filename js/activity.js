@@ -6,9 +6,8 @@ $(function(){
     $(window).scroll(function(){
         var h=$(document).scrollTop();
         if(h>=1000){
-            console.log(1);
-            goTopBtn.show();
-            goTopBtn.css({
+        goTopBtn.show();
+        goTopBtn.css({
                 "position":"fixed",
                 "top" :"675px",
                 "left":"50%",
@@ -22,21 +21,17 @@ $(function(){
                 "bottom":"0px",
                 "top":"5px",
                 "left":"20%"
-                // "transform":"translate(-50%,0)"
             })
         }
         if(h<800){
             goTopBtn.hide();
         }
     })
-
     $(".headlogo").click(function(){
-        console.log(1)
         location.href="./index.html"
     })
     // 热气球
     $(".projectimg").click(function(){
-        console.log(1)
         location.href="./exploer_the_world.html"
     })
 })

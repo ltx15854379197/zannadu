@@ -49,11 +49,18 @@ body>section{
 	margin-top:50px;
 }
 .theme .col-xs-4 span{
+	width: 36px;
+	height: 36px;
 	border: 3px solid #fff;
-	border-radius: 15px;
+	border-radius: 18px;
 	position:absolute;
 	top: 0px;
 	left: 0px;
+	background-image: url(../imgs/Personal_Tailor/房子.svg);
+}
+.theme .col-xs-4 .TheTheme{
+	background-image: url(../imgs/Personal_Tailor/房子2.svg);
+	border: 3px solid #9CEEFF;
 }
 .lastRow{
 	width: 400px;
@@ -63,7 +70,6 @@ body>section{
 input{
 	width: 400px;
 	height: 40px;
-	
 }
 .colorFout{
 	margin-top: 20px;
@@ -71,16 +77,29 @@ input{
 
 }
 .colorFout .go-off{
-	
 	width: 400px;
 	display: flex;
 }
-.colorFout div{
+.colorFout>div{
 	margin-top:15px;
 }
 .colorFout .go-off input{
 	width: 190px;
 	color: black;
+}
+.colorFout .go-off .Day{
+	margin-left: 60px;
+}
+.wrapper{
+	position:relative;
+}
+.day{
+	color: black;
+	z-index: 10;
+	float:left;
+	position:absolute;
+	top: 10px;
+	left: 90px;
 }
 .colorFout .go-off .check{
 	width: 30px;
@@ -237,7 +256,7 @@ form .num{
 	display: flex;
 	justify-content: space-between;
 }
-form .num div{
+form .num>div{
 	margin-top: 10px;
 }
 form .num .adultNum{
@@ -250,7 +269,7 @@ form .num .adultNum input{
 form .num .chliderNum，form .num .roomNum{
 	width: 100px;
 }
-form .num .chliderNum span{
+form .num .chliderNum .xiao{
 	font-size: 0.7em;
 }
 form .num .chliderNum input,form .num .roomNum input{
@@ -304,7 +323,6 @@ label.error {
   color: red;
 }
 #firstname-error{
-	/*border:1px solid red;*/
 	font-size:14px;
 	font-weight: normal;
 	padding-left: 20px;
@@ -314,7 +332,6 @@ label.error {
 	background-position: 0px 2px;
 }
 #lastname-error{
-	/*border:1px solid red;*/
 	font-size:14px;
 	font-weight: normal;
 	padding-left: 20px;
@@ -324,7 +341,6 @@ label.error {
 	background-position: 0px 2px;
 }
 #phone-error{
-	/*border:1px solid red;*/
 	font-size:14px;
 	font-weight: normal;
 	padding-left: 20px;
@@ -334,7 +350,6 @@ label.error {
 	background-position: 0px 2px;
 }
 #email-error{
-	/*border:1px solid red;*/
 	font-size:14px;
 	font-weight: normal;
 	padding-left: 20px;
@@ -344,7 +359,6 @@ label.error {
 	background-position: 0px 2px;
 }
 #colorFout-error{
-	/*border:1px solid red;*/
 	font-size:14px;
 	font-weight: normal;
 	padding-left: 20px;
@@ -354,7 +368,6 @@ label.error {
 	background-position: 0px 2px;
 }
 #go-off-error{
-	/*border:1px solid red;*/
 	font-size:14px;
 	font-weight: normal;
 	padding-left: 20px;
@@ -368,5 +381,20 @@ label.error {
 	text-align: center;
 	margin-top: 20px;
 }
-
+.num-input{
+	width: 100px;
+}
+.chliderNums>div{
+	margin: 5px;
+	color: #fff;
+	width: 190px;
+	margin-right: 5px;
+}
+.chliderNums{
+	display: flex;
+	flex-wrap: wrap;
+}
+.chliderNum{
+	margin-right:4px;
+}
 
