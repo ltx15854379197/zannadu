@@ -52,4 +52,9 @@ $(function(){
         console.log(1)
         location.href="./index.html"
     })
+    $(".projectimg").click(function(){
+        console.log(1)
+        location.href="./exploer_the_world.html"
+    })
+
 })

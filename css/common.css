@@ -558,3 +558,6 @@ footer .footer{
     border-right: 8px solid transparent;
     border-bottom: 8px solid #8ca6c1;
 }
+.headlogo,.projectimg{
+	cursor: pointer;
+}
