@@ -6,7 +6,6 @@ $(function(){
     $(window).scroll(function(){
         var h=$(document).scrollTop();
         if(h>=1800){
-            console.log(1);
             goTopBtn.show();
             goTopBtn.css({
                 "position":"fixed",
@@ -34,7 +33,6 @@ $(function(){
         navbox=$(".go div")
     $(window).scroll(function(){
         var h=$(document).scrollTop();
-        console.log(h); 
         if(h>=690){
             navto.css({"position":"fixed","top":"0px","left":"0px"});
             navbox.css("height","80px");
@@ -45,12 +43,10 @@ $(function(){
     })
 
     $(".headlogo").click(function(){
-        console.log(1)
         location.href="./index.html"
     })
     // 热气球
     $(".projectimg").click(function(){
-        console.log(1)
         location.href="./exploer_the_world.html"
     })
 })

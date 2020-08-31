@@ -1,6 +1,5 @@
 $(function(){
 $(".thumbnail").mouseover (function(){
-        // console.log(1)
         var _this=$(this)
         var inDwon=_this.children(".inDwon")
         var inUp=_this.children(".inUp")
@@ -23,7 +22,6 @@ $(".thumbnail").mouseover (function(){
     $(window).scroll(function(){
         var h=$(document).scrollTop();
         if(h>=1800){
-            console.log(1);
             goTopBtn.show();
             goTopBtn.css({
                 "position":"fixed",
@@ -39,7 +37,6 @@ $(".thumbnail").mouseover (function(){
                 "bottom":"0px",
                 "top":"5px",
                 "left":"20%"
-                // "transform":"translate(-50%,0)"
             })
         }
         if(h<1800){
@@ -48,7 +45,6 @@ $(".thumbnail").mouseover (function(){
     })
 
     $(".headlogo").click(function(){
-        console.log(1)
         location.href="./index.html"
     })
 })

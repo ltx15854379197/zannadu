@@ -7,7 +7,6 @@
 	background-image: url(../imgs/register/feather-register.jpg);
 }
 #state-error{
-	/*border:1px solid red;*/
 	font-size:14px;
 	font-weight: normal;
 	padding-left: 20px;
@@ -17,7 +16,6 @@
 	background-position: 0px 2px;
 }
 #tel-error{
-	/*border:1px solid red;*/
 	font-size:14px;
 	font-weight: normal;
 	padding-left: 20px;
@@ -27,7 +25,6 @@
 	background-position: 0px 2px;
 }
 #pwd-error{
-	/*border:1px solid red;*/
 	font-size:14px;
 	font-weight: normal;
 	padding-left: 20px;

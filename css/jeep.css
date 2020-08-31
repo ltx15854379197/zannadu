@@ -13,8 +13,7 @@ body .videoweb{
 	left: 0px;
 	top:0px;
   display: none;
-/*	opacity: 0.3;
-*/}
+}
 .videowebbox{
 	width: 960px;
 	height: 540px;
@@ -23,7 +22,6 @@ body .videoweb{
 	margin-top:70px;
 	margin-left: 270px;
 }
-
 .videobox{
 	position:relative;
 	
@@ -79,7 +77,6 @@ body .videoweb{
 .cms-section .col-xs-6 .caption>div{
 	height: 30px;
 	line-height: 30px;
-
 }
 .cms-section .col-xs-6 .caption>div span{
 	padding-bottom: 5px;
@@ -95,8 +92,6 @@ body .videoweb{
 	display: none;
 	position:absolute;
 	top: 0px;
-/*	position: relative;
-*/ 	
 }
  .cms-section .percent-recommended .recommended span{
 	font-size: 60px;
@@ -128,11 +123,9 @@ body .videoweb{
 	height: 700px;
 	background-size: cover;
 	background-position: -150px 0;
-
 }
 .firstImgbox{
 	background-image: url(../imgs/jeep/slide1-1.jpg);
-
 }
 .configurationText{
 	margin: auto;

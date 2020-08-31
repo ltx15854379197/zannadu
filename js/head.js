@@ -5,7 +5,6 @@ var navto=$(".navto"),
     navsearch=$(".navsearch");
 $(window).scroll(function(){
 	var h=$(document).scrollTop();
-	console.log(h);	
 	if(h>=120){
 		navto.css({"position":"fixed","top":"0px","left":"0px"});
 		navbox.css("height","80px");

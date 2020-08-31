@@ -41,7 +41,6 @@ $(function(){
                 "bottom":"0px",
                 "top":"5px",
                 "left":"20%"
-                // "transform":"translate(-50%,0)"
             })
         }
         if(h<1800){

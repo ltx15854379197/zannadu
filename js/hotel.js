@@ -7,7 +7,6 @@ $(function(){
 	    navsearch=$(".navsearch");
 	$(window).scroll(function(){
 		var h=$(document).scrollTop();
-		console.log(h);	
 		if(h>=170){
 			schedule.css({
                 "position":"fixed",
@@ -23,7 +22,6 @@ $(function(){
             }) 
            percent.show();
             place.show();
-
 		}
 	})
 	$(".goTopBtn").click(function(){
@@ -33,7 +31,6 @@ $(function(){
     $(window).scroll(function(){
         var h=$(document).scrollTop();
         if(h>=1200){
-            console.log(1);
             goTopBtn.show();
             goTopBtn.css({
                 "position":"fixed",
@@ -49,7 +46,6 @@ $(function(){
                 "bottom":"0px",
                 "top":"5px",
                 "left":"20%"
-                // "transform":"translate(-50%,0)"
             })
         }
         if(h<1200){
@@ -69,7 +65,6 @@ $(function(){
  
  var h=$(window).height(),
     w=$(window).width();
-         // console.log(w,h);
     var play=$(".play"),
         body=$("body"),
         photo=$(".full img"),
@@ -79,10 +74,8 @@ $(function(){
         prev=$(".swiper-button-prev"),
         fullbox=$(".fullbox"),
         full1=$(".full");
-        // console.log(photo);
         play.on("click",function(e){
             full1.show();
-            // body.on("scroll mousewheel" ,stopScrolling)
             body.css({
                 "width":"100%",
                 "height":"100%",
@@ -98,7 +91,6 @@ $(function(){
         })
         search.on("click",function(e){
             full1.show();
-            // body.on("scroll mousewheel" ,stopScrolling)
             body.css({
                 "width":"100%",
                 "height":"100%",
@@ -114,7 +106,6 @@ $(function(){
         })
         full1.on("click",function(e){
             var obj =e.target;
-            // console.log(e.target);
             e.preventDefault();
             if(obj ===full1[0]){
                 full1.hide();
@@ -124,7 +115,6 @@ $(function(){
                     "overflow":"auto"
                 })
             }
-        
         })
         close.on("click",function(e){
             full1.hide();
@@ -148,7 +138,6 @@ $(function(){
       },
     });
     var photo1=$(".photo img");
-    console.log(photo1);
     photo1.on("click",function(){
         this.css("border","2px solid  #D66382"); 
     })
@@ -198,12 +187,10 @@ $(function(){
             "border-bottom":"8px solid black",
             "top":"14px"
         });
-        console.log(1);
         daynum1.slideToggle(300);
     })
     var dayshu1=$(".daynum1 li");
     dayshu1.on("click",function(e){
-        console.log(this);
         sanjiao1.css({
             "border-bottom":"8px solid transparent",
             "border-top":"8px solid black",
@@ -239,12 +226,10 @@ $(function(){
             "border-bottom":"8px solid black",
             "top":"14px"
         });
-        console.log(1);
         daynum.slideToggle(300); 
     })
     var dayshu=$(".daynum2 li");
     dayshu.on("click",function(e){
-        console.log(this);
         sanjiao.css({
             "border-bottom":"8px solid transparent",
             "border-top":"8px solid black",
@@ -281,12 +266,10 @@ $(function(){
             "border-bottom":"8px solid black",
             "top":"192px"
         });
-        console.log(1);
         daynum4.slideToggle(300);
     })
     var dayshu4=$(".daynum4 li");
     dayshu4.on("click",function(e){
-        console.log(this);
         sanjiao4.css({
             "border-bottom":"8px solid transparent",
             "border-top":"8px solid black",
@@ -306,12 +289,10 @@ $(function(){
             "border-bottom":"8px solid black",
             "top":"138px"
         });
-        console.log(1);
         daynum3.slideToggle(300);
     })
     var dayshu3=$(".daynum3 li");
     dayshu3.on("click",function(e){
-        console.log(this);
         sanjiao3.css({
             "border-bottom":"8px solid transparent",
             "border-top":"8px solid black",
@@ -370,11 +351,9 @@ $(".nametel").validate({
     });
    // 热气球
     $(".projectimg").click(function(){
-        console.log(1)
         location.href="./exploer_the_world.html"
     })
     $(".headlogo").click(function(){
-        console.log(1)
         location.href="./index.html"
     })
 })

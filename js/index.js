@@ -22,7 +22,6 @@ $(function(){
         date2=$(".date2"),
         dateinput=$(".dateinput");
         placetxt.on("click",function(){
-            console.log(1);
         dateinput.animate({"width":"150px"},500)
         dateinput.css({"border":"1px solid red","background-color":"white","margin-right":"5px","padding":"12px 25px"})
         placetxt.css("margin-right","5px");
@@ -35,9 +34,7 @@ $(function(){
         navsearch=$(".navsearch");
         $(window).scroll(function(){
             var h=$(document).scrollTop();
-                console.log(h); 
                 if(h>=500){ 
-                    // console.log(1)
                 navto.css({"position":"fixed","top":"0px","left":"0px"});
                 navbox.css("height","80px");
                 birdlogo.show();
@@ -52,13 +49,11 @@ $(function(){
 // 视频部分
      var h=$(window).height(),
          w=$(window).width();
-         // console.log(w,h);
     var play=$(".play"),
         body=$("body"),
         video=$(".videoweb");
         play.on("click",function(e){
             video.show();
-            // body.on("scroll mousewheel" ,stopScrolling)
             body.css({
                 "width":"100%",
                 "height":"100%",
@@ -82,7 +77,6 @@ $(function(){
         video.css({"width":w,"height":h});
 //图片交互
     $(".thumbnail").mouseover (function(){
-        // console.log(1)
         var _this=$(this)
         var inDwon=_this.children(".inDwon")
         var inUp=_this.children(".inUp")
@@ -128,12 +122,10 @@ $(function(){
     })
 
     $(".headlogo").click(function(){
-        console.log(1)
         location.href="./index.html"
     })
 // 热气球
     $(".projectimg").click(function(){
-        console.log(1)
         location.href="./exploer_the_world.html"
     })
 })

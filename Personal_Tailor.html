@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="plugin/bootstrap/css/bootstrap.css">
 	<script src="plugin/jquery-3.5.1.js"></script>
 	<script src="plugin/bootstrap/js/bootstrap.js"></script>
+	<script src="plugin/numberInput.js" type="text/javascript" charset="utf-8"></script>
 	<link rel="stylesheet" href="css/common.css">
 	<link rel="stylesheet" href="css/Personal_Tailor.css">
 	<!-- 滑块插件 -->
@@ -16,7 +17,7 @@
 	<script src="plugin/jquery.validate.js"></script>
 	<script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
 	<script src="plugin/messages_zh.js"></script>
-
+	<!-- 天数人数 -->
 </head>
 <body>
 	<div class="seek">
@@ -250,7 +251,8 @@
 		</div>
 		</div>
 		</nav>
-	</header>	<section class="firstSec">
+	</header>	
+	<section class="firstSec">
 		<div class="container">
 			<div class="col-xs-12">
 				<h1>私人定制</h1>
@@ -268,35 +270,35 @@
 						</div>
 					<div class="row">
 						<div class="col-xs-4">
-							<a href="">
-							<span><img src="imgs/Personal_Tailor/房子.svg" alt=""></span>
+							<a class="The_theme">
+							<span></span>
 							</a>
 						</div>
 						<div class="col-xs-4">
-							<a href="">
-							<span><img src="imgs/Personal_Tailor/房子.svg" alt=""></span>
+							<a class="The_theme">
+							<span></span>
 							</a>
 						</div>
 						<div class="col-xs-4">
-							<a href="">
-							<span><img src="imgs/Personal_Tailor/房子.svg" alt=""></span>
+							<a class="The_theme">
+							<span></span>
 							</a>
 						</div>
 					</div>
 					<div class="row second">
 						<div class="col-xs-4">
-							<a href="">
-							<span><img src="imgs/Personal_Tailor/房子.svg" alt=""></span>
+							<a class="The_theme">
+							<span></span>
 							</a>
 						</div>
 						<div class="col-xs-4">
-							<a href="">
-							<span><img src="imgs/Personal_Tailor/房子.svg" alt=""></span>
+							<a class="The_theme">
+							<span></span>
 							</a>
 						</div>
 						<div class="col-xs-4">
-							<a href="">
-							<span><img src="imgs/Personal_Tailor/房子.svg" alt=""></span>
+							<a class="The_theme">
+							<span></span>
 							</a>
 						</div>
 
@@ -312,11 +314,11 @@
 				<input type="text" name="colorFout" style="color: #000">		
 				</div>
 				<div class="go-off">
-					<div>出发日期<s>*</s>
+					<div>出发日期<s>*</s><br>
 					<input type="date" class="" name="go-off">
 					</div>
-					<div>出行时长<s>*</s>
-					<input type="number" class="">	
+					<div  class="Day">出行时长<s>*</s><br>
+					<div class="wrapper"><span class="day">天</span></div>
 					</div>
 				</div>
 				<div>
@@ -359,16 +361,21 @@
 			<div class="num textColor">
 				<div class="adultNum">
 					<div>成人数</div>
-					<input type="number" min="1">
+					<div class="wrapper"">
+						<span class="day">人</span>
+					</div>
 				</div>
 				<div class="chliderNum">
-					<div>儿童数<span>(0到12周岁)</span></div>
-					<input type="number" min="0">
+					<div>儿童数<span class="xiao">(0到12周岁)</span></div>
+					<div class="wrapper"><span class="day">人</span>
+					</div>
 				</div>
 				<div class="roomNum">
 					<div>房间数</div>
-					<input type="number" min="0">
+					<div class="wrapper"><span class="day">间</span></div>
 				</div>
+			</div>
+			<div class="chliderNums">
 			</div>
 			<div class="lastRow"></div>
 			<div class="guideLge textColor">
@@ -418,13 +425,11 @@
 			</div>
 		</form>
 	</section>
-
 	<script src="js/common.js"></script>
 	<!-- <script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script> -->
 	<script src="js/Personal_Tailor.js"></script>
 	<script type="text/javascript">
 		//本小插件支持移动端哦
-		
 		//这里是初始化
 		$('.filter-box').selectFilter({
 			callBack : function (val){
@@ -436,5 +441,23 @@
 	<!-- 滑块插件 -->
 	<!-- <script src="http://www.jq22.com/jquery/1.11.1/jquery.min.js"></script> -->
 	<script type="text/javascript" src="plugin/ion.rangeSlider.js"></script>
+	
+	<script type="text/javascript">
+    $(function(){
+      $(".wrapper").numInput({
+    	 	width: 100,//宽度
+    	  	positive: true,//允许输入正数
+    	  	negative: false,//允许输入负数
+    	  	//faq：positive，negative不能同时false，同时false按同时为true处理
+    	  	floatCount: 0,//小数点后保留位数
+    	  	//命名空间，防止样式冲突
+    	  	wrapperClass: 'num-input-wrap',//最外层容器
+        	inputClass: 'num-input',//input输入框
+        	addClass: 'add',//增加按钮
+        	subtractClass: 'subtract',//减少按钮
+        	interval: 1//增加&减少按钮每次变化的值
+    	}); 
+    })
+	</script>
 </body>
 </html>

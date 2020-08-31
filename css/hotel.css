@@ -6,9 +6,7 @@
 	width: 1000px;
 	height: 100%;
 	margin:auto;
-	/*border:1px solid red;*/
 	padding: 20px 0px;
-	/*display: flex;*/
 }
 .schedulebox:after{
 	content: "";
@@ -21,7 +19,6 @@
 .schedule .txtbox .placetxt{
 	color:white;
 	font-size:24px;
-	/*border:1px solid red;*/
 	width:580px;
 }
 .schedule .txtbox .place{
@@ -53,7 +50,6 @@
 /*价格*/
 .schedule .pricebox{
 	width: 290px;
-	/*border:1px solid red;*/
 	float:right;		
 }
 .schedule .pricebox div{
@@ -87,7 +83,6 @@
 }
 .feature .featurebox{
 	width: 1000px;
-	/*border:1px solid red;	*/
 	margin:auto;
 	padding-top: 50px;
 	position: relative;
@@ -118,7 +113,6 @@
     }
 .picture .swiper-slide {
 	position:relative;
-      /* Center slide text vertically */
       display: -webkit-box;
       display: -ms-flexbox;
       display: -webkit-flex;
@@ -138,7 +132,6 @@
 	height: 90px;
 	border-radius: 45px;
 	background-color: #465562;
-	/*background-color: red;*/
 	z-index: 100;
 
 	box-shadow: 0 0 6px 13px #3333;
@@ -170,7 +163,6 @@
 .feature .picture .search{
 	width: 30px;
 	height:30px;
-	/*border:1px solid red;*/
 	z-index: 200;
 	position: absolute;
 	right: 10px;
@@ -193,17 +185,14 @@ body .full{
 	background-color:#00000055;
 	float: left;
 	z-index: 20;
-	/*border:1px solid blue;*/
 	position: fixed;
 	left: 0px;
 	top:0px;
   display: none;
-/*	opacity: 0.3;
-*/}
+}
 body .full .fullbox{
 	width: 1000px;
 	height: 580px;
-	/*border:1px solid red;*/
 	outline: none;
 	margin-top:30px;
 	margin-left: 200px;
@@ -216,7 +205,6 @@ body .full .fullbox{
 
 .full .swiper-slide {
 	position: relative;
-      /* Center slide text vertically */
     display: -webkit-box;
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -249,14 +237,12 @@ body .full .fullbox{
  	right:0px;
  }
  .full .swiper-button-next{
-	/*border:1px solid red;*/
 	width: 50px;
 	height:50px;
 	border-radius:25px;
 	position: absolute;
 	right:0px;
 	top:50%;
-	/*background-color: black;*/
 	background-image: url(../imgs/index/arrow.png);	
 	background-repeat: no-repeat;
 	background-position: -160px -5px;
@@ -268,7 +254,6 @@ body .full .fullbox{
 	display: none;
 }
 .full .swiper-button-prev{
-	/*border:1px solid red;*/
 	width: 50px;
 	height:50px;
 	border-radius:25px;
@@ -289,7 +274,6 @@ body .full .fullbox{
 .feature .Text{
 	color:#7F96AD;
 	z-index: 200;
-	/*border:1px solid red;*/
 	width: 350px;	
 	height: 80px;
 	float: right;
@@ -301,18 +285,15 @@ body .full .fullbox{
 	height: 80px;
 	text-align: center;
 	line-height: 150px;
-	/*border:1px solid red;*/
 	font-size: 150px;
 }
 .feature .Text .mesa{
 	width: 250px;
-	/*border:1px solid blue;*/
 }
 /*下面轮模图*/
 .feature .photo{
 	width: 660px;
 	height: 100px;
-	/*border:1px solid red;*/
 	float: left;
 	position: relative;
 	margin-top: 40px;
@@ -326,7 +307,6 @@ body .full .fullbox{
 }
 
 .photo .swiper-slide {
-    /* Center slide text vertically */
     display: -webkit-box;
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -342,14 +322,12 @@ body .full .fullbox{
     padding:15px;
     }
 .photo .swiper-button-next{
-	/*border:1px solid red;*/
 	width: 50px;
 	height:50px;
 	border-radius:25px;
 	position: absolute;
 	right:-10px;
 	top:50%;
-	/*background-color: black;*/
 	background-image: url(../imgs/index/arrow.png);	
 	background-repeat: no-repeat;
 	background-position: -160px -5px;
@@ -361,7 +339,6 @@ body .full .fullbox{
 	display: none;
 }
 .photo .swiper-button-prev{
-	/*border:1px solid red;*/
 	width: 50px;
 	height:50px;
 	border-radius:25px;
@@ -386,33 +363,28 @@ body .full .fullbox{
 	height: 420px;
 	background-color: #8EA8C3;
 	overflow: hidden;
-	/*float:right;*/
 	position: absolute;
 	bottom:0px;
 	right: 20px;
 }
 .feature .meal ul{
 	width: 250px;
-	/*border:1px solid red;*/
 	margin-top: 30px;
 	margin-left:30px;	
 }
 .feature .meal ul>li{
-	/*border:1px solid red;*/
 	margin-top:15px;
 	display: flex;	
 }
 .feature .meal ul li div:first-child{
 	width: 30px;
 	height: 35px;
-	/*border:1px solid red;*/
 	background-image: url("../imgs/hotel/feather.png");
 	background-repeat:no-repeat;
 	background-size: 100% 100%;
 }
 .feature .meal ul li div:last-child{
 	width: 200px;	
-	/*border: 1px solid red;*/
 	margin-top:0px;
 }
 .feature .meal .mincricle{
@@ -471,9 +443,7 @@ body .full .fullbox{
 }
 .bluebox{
 	width: 1000px;
-/*	height: 3000px;	*/
 	margin:auto;
-	/*border:1px solid red;*/
 }
 .bluebox:after{
 	content: "";
@@ -482,8 +452,6 @@ body .full .fullbox{
 }
 .blue .set{
 	width: 630px;
-	/*height:400px;*/
-	/*border:1px solid red;*/
 	background-color: white;
 	margin-top:60px;
 	position: relative;
@@ -518,8 +486,6 @@ body .full .fullbox{
 }
 .blue .Text{
 	width: 100%;
-	/*height:1900px;*/
-	/*border:1px solid red;*/
 	padding-left: 30px;
 	padding-right: 30px;
 	position: relative;
@@ -529,7 +495,6 @@ body .full .fullbox{
 	width: 240px;
 	height: 250px;
 	margin-top:0px;
-	/*border:1px solid red;*/
 	position: absolute;
 	top:0px;
 	right:30px;
@@ -541,8 +506,6 @@ body .full .fullbox{
 .blue .Text .beatiful{
 	margin-top:40px;
 	width: 320px;
-	/*border:1px solid red;*/
-	
 	font-size: 16px;
 }
 .blue .settext ul{
@@ -561,16 +524,13 @@ body .full .fullbox{
 }
 .blue .comment{
 	width: 350px;
-	/*height: 420px;*/
 	margin-top:60px;
-	/*border:1px solid red;*/
 	float: right;
 	background-color: white;
 }
 .blue .comment .commentmes{
 	width: 320px;
-	height: 30px;	
-	/*border:1px solid blue;*/
+	height: 30px;
 	margin-left: 25px;
 	margin-top:10px;
 	position: relative;
@@ -582,7 +542,6 @@ body .full .fullbox{
 	font-size: 14px;
 	width: 60px;
 	height: 20px;
-	/*border:1px solid red;*/
 	line-height: 20px;
 	text-align: right;
 	margin-top: 5px;
@@ -604,8 +563,6 @@ body .full .fullbox{
 }
 .blue .comment .stars{
 	position: absolute;
-	/*border:1px solid red;*/
-	
 	height: 25px;
 	left:70px;
 	top:3px;
@@ -640,7 +597,6 @@ body .full .fullbox{
 	text-decoration: underline;
 }
 .blue .puton{
-	/*border:1px solid red;*/
 	padding:10px 20px;
 	padding-left: 50px;
 	border-radius: 20px;
@@ -666,8 +622,6 @@ body .full .fullbox{
 }
 .blue .member{
 	width: 350px;
-	/*height: 300px;*/
-	/*border:1px solid red;*/
 	float: right;
 	margin-top: 40px;
 	background-color:white;
@@ -675,13 +629,11 @@ body .full .fullbox{
 .blue .menbers{
 	width: 100%;
 	height: 130px;
-	/*border:1px solid red;*/
 	margin:auto;
 	margin-top: 80px;
 	position: relative;
 }
 .blue .metoo{
-	/*border:1px solid red;*/
 	width: 150px;
 	margin:auto;
 	margin-top: 20px;
@@ -699,7 +651,6 @@ body .full .fullbox{
 }
 .blue .txt{
 	width: 250px ;
-	/*border:1px solid red;*/
 	margin-left: 50px;
 	margin-top: 10px;
 	display: none;
@@ -717,7 +668,6 @@ body .full .fullbox{
     padding-right: 15px;
     }
 .blue .swiper-slide {
-    /* Center slide text vertically */
     display: -webkit-box;
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -731,14 +681,12 @@ body .full .fullbox{
     -webkit-align-items: center;
     align-items: center;
     display: block;
-    /*border:1px solid red;*/
 }
 .blue .swiper-slide .circle{
 	width: 80px;
 	height: 80px;
 	margin:auto;
 	border-radius: 40px;
-	/*border:1px solid red;*/
 	margin-top: 10px;
 	overflow: hidden;
 }
@@ -748,7 +696,6 @@ body .full .fullbox{
 }
 .blue .swiper-slide .text{
 	width: 80px;
-	/*border:1px solid red;*/
 	margin:auto;
 	margin-top: 5px;
 	text-align: center;
@@ -761,14 +708,12 @@ body .full .fullbox{
 }
 /*轮模图箭头*/
 .blue .member .swiper-button-next::after{
-	/*border:1px solid red;*/
 	font-size: 30px;
 	color:black;
 	position: absolute;
 	right:-10px;
 }
 .blue .member .swiper-button-prev::after{
-	/*border:1px solid red;*/
 	font-size: 30px;
 	color:black;
 	position: absolute;
@@ -782,8 +727,6 @@ body .full .fullbox{
 }
 .blue .Text .rule{
 	width: 100%;
-	/*height: 600px;*/
-	/*border:1px solid red;*/
 	background-color:#F3F2F0;
 	color:#8F4646;	
 	font-size: 13px;
@@ -812,7 +755,6 @@ body .full .fullbox{
 }
 .blue .map .mapmes{
 	height: 350px;
-	/*border:1px solid red;*/	
 }
 #allmap{
 	width: 100%;
@@ -820,8 +762,6 @@ body .full .fullbox{
 }
 .blue .settwo{
 	width: 630px;
-	/*height: 600px;*/
-	/*border:1px solid red;*/
 	float: left;
 	padding-left: 30px;
 	padding-right: 30px;
@@ -836,7 +776,6 @@ body .full .fullbox{
 	padding-left: 30px;
 	padding-right: 30px;
 	width: 100%;
-	/*height: 300px;*/
 	background-color: #E1EBF3;
 	margin-top:20px;
 	display: flex;
@@ -850,7 +789,6 @@ body .full .fullbox{
 .blue .checkIn .hoteltxt{
 	width: 240px;
 	height: 90px;
-	/*border:1px solid red;*/
 	margin-top: 30px;
 }
 
@@ -865,7 +803,6 @@ body .full .fullbox{
 .blue .checkIn .day{
 	width: 150px;
 	height: 45px;
-	/*border:1px solid red;*/
 	margin-top: 50px;
 	background-color:#EEEEEE;
 	position: relative;
@@ -897,7 +834,6 @@ body .full .fullbox{
 }
 /*下拉列表*/
 .blue .daynum{
-	/*border:1px solid red;*/
 	width: 150px;
 	height: 210px;
 	overflow: auto;
@@ -910,7 +846,6 @@ body .full .fullbox{
 }
 .blue .daynum li{
 	height: 40px;
-	/*border:1px solid red;*/
 	background-color:white;
 	line-height: 40px;
 	padding-left: 10px;
@@ -931,7 +866,6 @@ body .full .fullbox{
 	margin-top: 30px;
 	padding-left: 40px;
 	padding-top: 15px;
-	/*border:1px solid red;*/
 	color:#CC5977;
 	position: relative;
 }
@@ -963,7 +897,6 @@ body .full .fullbox{
 .blue .ulbox{
 	width: 100%;
 	height: 150px;
-	/*border:1px solid red;*/
 	margin-top: 10px;
 	display: none;
 }
@@ -980,7 +913,6 @@ body .full .fullbox{
 .blue .allsum{
 	width: 570px;
 	height: 50px;
-	/*border:1px solid red;*/
 	margin-top: 10px;
 	display: flex;
 	justify-content: space-between;		
@@ -996,7 +928,6 @@ body .full .fullbox{
 	font-weight: bold;
 	color:white;
 	background-color:#465562;
-	/*border:1px solid red;*/
 }
 .blue .allsum .figure{
 	width: 180px;
@@ -1005,12 +936,10 @@ body .full .fullbox{
 	font-weight: bold;
 	color:white;
 	background-color:#465562;
-	/*border:1px solid red;*/
 }
 .blue .allsum .all{
 	width: 180px;
 	height: 100%;
-	/*border:1px solid red;*/
 	font-size: 18px;
 	font-weight: bold;
 	color:white;
@@ -1030,14 +959,11 @@ body .full .fullbox{
 /*表单验证*/
 .blue .settwo .nametel{
 	width: 400px;
-	/*height: 600px;*/
-	/*border:1px solid red;*/
 	margin:auto;
 	margin-top: 30px;
 	position: relative;
 }
 #username-error{
-	/*border:1px solid red;*/
 	font-size:14px;
 	font-weight: normal;
 	padding-left: 150px;
@@ -1047,7 +973,6 @@ body .full .fullbox{
 
 }
 #date-error{
-	/*border:1px solid red;*/
 	font-size:14px;
 	font-weight: normal;
 	padding-left: 140px;
@@ -1088,7 +1013,6 @@ body .full .fullbox{
 	cursor: pointer;
 }
 .blue .nametel .remainbox{
-	/*border:1px solid red;*/
 	margin-left:80px;
 	font-size: 17px;
 	position: relative;
@@ -1170,8 +1094,6 @@ body .full .fullbox{
 }
 .blue .tripbox{
 	width: 630px;
-	/*height: 600px;*/
-	/*border:1px solid red;*/
 	float: left;
 	padding-left: 30px;
 	padding-right: 30px;
@@ -1183,7 +1105,6 @@ body .full .fullbox{
 }
 .blue .tripbox .photobox{
 	width: 100%;
-	/*border:1px solid red;*/
 	margin-top: 10px;
 }
 .blue .tripbox .photobox div{
@@ -1200,13 +1121,10 @@ body .full .fullbox{
 }
 .black{
 	background-color: #8EA8C3;
-	/*height: 300px;*/
 }
 .black .blackbox{
 	width: 1000px;
 	margin:auto;
-	/*height: 400px;*/	
-	/*border:1px solid red;*/
 	position: relative;
 }
 .black .blackbox h4{
@@ -1220,7 +1138,6 @@ body .full .fullbox{
 	width: 100%;
 	height: 400px;
 	box-sizing: border-box;
-	/*border:1px solid red;*/
 	padding-left: 30px;
 	padding-right: 30px;
 	position: relative;
@@ -1230,7 +1147,6 @@ body .full .fullbox{
       width: 100%;
     }
 .black .blackbox .blackpicture .swiper-slide {
-      /* Center slide text vertically */
       display: -webkit-box;
       display: -ms-flexbox;
       display: -webkit-flex;
@@ -1244,7 +1160,6 @@ body .full .fullbox{
       -webkit-align-items: center;
       align-items: center;
       width: 100%;
-      /*border:1px solid red;*/
       padding-left:10px;
       padding-right:10px;
       width: 300px;
@@ -1253,12 +1168,10 @@ body .full .fullbox{
 	width: 100%;
 }
 .blackpicture .swiper-slide .thumbnail{
-	/*border:1px solid red;*/
 	padding:0px;
 	width: 300px;
 }
 .blackpicture .swiper-slide .whitebars{
-	/*border:1px solid red;*/
 	width: 300px;
 	height: 20px;
 	position: absolute;
@@ -1271,7 +1184,6 @@ body .full .fullbox{
 	height: 120px;
 }
 .blackpicture .swiper-slide .price{
-	/*border:1px solid red;*/
 	margin-top:40px; 
 	margin-left: 60px;
 	color:#C15672;
@@ -1303,14 +1215,12 @@ body .full .fullbox{
 	display: block;
 }
 .blackpicture .swiper-button-next{
-	/*border:1px solid red;*/
 	width: 50px;
 	height:50px;
 	border-radius:25px;
 	position: absolute;
 	right:0px;
 	top:50%;
-	/*background-color: black;*/
 	background-image: url(../imgs/index/arrow.png);	
 	background-repeat: no-repeat;
 	background-position: -160px -5px;
@@ -1322,7 +1232,6 @@ body .full .fullbox{
 	display: none;
 }
 .blackpicture .swiper-button-prev{
-	/*border:1px solid red;*/
 	width: 50px;
 	height:50px;
 	border-radius:25px;

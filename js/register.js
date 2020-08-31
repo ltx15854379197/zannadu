@@ -3,7 +3,6 @@
         var me = this;
         var $elm = me.checkElm(elm) ? $(elm) : $;
         success = me.checkFn(success) ? success : function(){};
-
         var opts = {
             successLabelTip:  "Successfully Verified",
             duration:  200,
@@ -14,9 +13,7 @@
             IsOk:  false,
             lableIndex:  0
         };
-
         opts = $.extend(opts, options||{});
-
         //$elm
         me.elm = $elm;
         //opts
@@ -43,7 +40,6 @@
 
     SliderUnlock.prototype.init = function () {
         var me = this;
-
         me.updateView();
         me.elm.find("#label").on("mousedown", function (event) {
             var e = event || window.event;
@@ -65,7 +61,6 @@
             me.handerOut();
         });
     };
-
     /**
      * 鼠标/手指接触滑动按钮
      */
@@ -75,7 +70,6 @@
         me.min = 0;
         me.max = me.elm.width();
     };
-
     /**
      * 鼠标/手指移出
      */
@@ -88,7 +82,6 @@
             me.reset();
         }
     };
-
     /**
      * 鼠标/手指移动
      * @param event
@@ -107,7 +100,6 @@
             me.move();
         }
     };
-
     /**
      * 鼠标/手指移动过程
      */
@@ -134,8 +126,6 @@
         }
         me.updateView();
     };
-
-
     /**
      * 更新视图
      */
@@ -145,7 +135,6 @@
         me.sliderBg.css('width', me.index);
         me.elm.find("#label").css("left", me.index + "px")
     };
-
     /**
      * 重置slide的起点
      */
@@ -158,7 +147,6 @@
             .next("#lableTip").animate({opacity: 1}, me.opts.duration);
         me.updateView();
     };
-
     /**
      * 检测元素是否存在
      * @param elm
@@ -171,7 +159,6 @@
             throw "this element does not exist.";
         }
     };
-
     /**
      * 检测传入参数是否是function
      * @param fn
@@ -184,7 +171,6 @@
             throw "the param is not a function.";
         }
     };
-
     window['SliderUnlock'] = SliderUnlock;
 })(jQuery, window, document);
 $(function () {
@@ -200,8 +186,6 @@ $(function () {
                 $("#labelTip").css("color","#787878");
                 },2000);
             slider.init(); 
-            
-            
         });
     slider.init();
 })
@@ -231,7 +215,6 @@ $(function(){
             },
         },
     });
-
 // 热气球
     $(".projectimg").click(function(){
         console.log(1)
