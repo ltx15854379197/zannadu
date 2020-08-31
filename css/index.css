@@ -508,7 +508,7 @@ section .tripbox .cms-section .thumbnail .caption .chart{
   display: inline-block;
   width: 30px;
   height: 30px;
-  border:1px solid red;
+  /*border:1px solid red;*/
   border-radius: 15px;
   position: relative;
   left:200px;
@@ -516,6 +516,12 @@ section .tripbox .cms-section .thumbnail .caption .chart{
   background-color: #CB5977;
   background-repeat: no-repeat;
   background-size: 100% 100%;
+}
+section .tripbox .cms-section .thumbnail .caption .chart1{
+  background-image:url(../imgs/discount/飞机.svg);
+}
+section .tripbox .cms-section .thumbnail .caption .chart2{
+  background-image:url(../imgs/discount/行李箱.svg);
 }
 section .tripbox .cms-section .thumbnail .caption .fly{
   background-image: url(../imgs/discount/飞机.svg);
@@ -647,13 +653,13 @@ section .sectionbox .videoright .know a{
   height: 228px;
 }
 section .tripbox .col-xs-4 .thumbnail .whitetext12{
-  border:1px solid red;
+  /*border:1px solid red;*/
   position: absolute;
   bottom:100px;
   height:60px;
 }
 section .tripbox .col-xs-4 .thumbnail .whitetext14{
-  border:1px solid red;
+  /*border:1px solid red;*/
   position: absolute;
   bottom:100px;
   height:120px;

@@ -24,6 +24,8 @@ section{
 	height: 40px;
 	margin: auto;
 	margin-bottom: 25px;
+  /*border:1px solid red;*/
+  position: relative;
 }
 .register .firstRow a{
 	color:#CB5977;
@@ -170,4 +172,45 @@ label.error {
   background-repeat: no-repeat;
   color:#C15672;
   background-position: 0px 2px;
+}
+.china{
+  /*border:1px solid red;*/
+  padding-right: 40px;
+  color:black;
+  font-weight: bold;
+}
+.sanjiao{
+  width: 0px;
+  height: 0px;
+  border-top: 8px solid black;
+  border-right: 8px solid transparent;
+  border-left: 8px solid transparent;
+  border-bottom:8px solid transparent;
+  position: absolute;
+  top:18px;
+  right: 20px;
+}
+.list{
+  width:90%;
+  height:300px; 
+  /*border:1px solid red;*/
+  background-color:white;
+  z-index: 100;
+  float: left;
+  position: absolute;
+  top:42px;
+  left:15px;
+  overflow: auto;
+  display: none;
+}
+.list li{
+  width: 100%;
+  height: 40px;
+  border-bottom: 1px solid gray;
+  color:black;
+  font-weight: bold;
+ 
+}
+.list li:hover{
+   background-color: #EAEAEA;
 }
