@@ -14,4 +14,9 @@ $(function(){
 		$(inUp).css("display","none")
 		$(inDwon).css("display","block")
 	})
+	// 热气球
+    $(".projectimg").click(function(){
+        console.log(1)
+        location.href="./exploer_the_world.html"
+    })
 })
