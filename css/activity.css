@@ -24,3 +24,7 @@ section .cms-section a:hover .thumbnail{
 section .cms-section a:hover .thumbnail p{
 	color: #FFFFF6;
 }
+.goTopBtnBox{
+	position:relative;
+	top:25px;
+}

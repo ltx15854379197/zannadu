@@ -1,0 +1,193 @@
+.videoSec{
+	width: 100%;
+	height: 850px;
+	background-image: url(https://cdn-assets.zanadu.cn/public/images/campaign/jeep/pc/jeep-banner.jpg?v=2);
+
+}
+/*视频页面*/
+body .videoweb{
+	background-color:#00000055;
+	float: left;
+	z-index: 20;
+	position: fixed;
+	left: 0px;
+	top:0px;
+  display: none;
+/*	opacity: 0.3;
+*/}
+.videowebbox{
+	width: 960px;
+	height: 540px;
+	border:none;
+	outline: none;
+	margin-top:70px;
+	margin-left: 270px;
+}
+
+.videobox{
+	position:relative;
+	
+}
+.video{
+	width: 400px;
+	color: #fff;
+	display: flex;
+	position:absolute;
+	top: 600px;
+	left: 600px;
+}
+.play{
+	width: 55px;
+	height: 55px;
+	border-radius: 27.5px;
+	background-image: url(../imgs/index/arrow.png);
+	background-position: -160px -65px;
+	background-repeat: no-repeat;
+}
+.video h1{
+	line-height: 20px
+}
+.play:hover{
+	cursor: pointer;
+}
+.lookSec{
+	width: 100%;
+	height: 700px;
+	background-image: url(../imgs/common/bg-image-clouds.jpg);
+}
+.lookSec .cms-section{
+	width: 1000px;
+}
+.lookSec .cms-section .row{
+	margin-top: 80px;
+}
+.cms-section .thumbnail{
+	padding: 0;
+	border: none;
+}
+.cms-section .thumbnail .caption{
+	padding: 10px;
+	height: 100px;
+}
+.cms-section .col-xs-6>a:hover .thumbnail{
+	background-color: #CB5977;
+}
+.cms-section .col-xs-6>a:hover .thumbnail p,
+.cms-section .col-xs-6>a:hover .thumbnail div{
+	color: #FFFFF6;
+}
+.cms-section .col-xs-6 .caption>div{
+	height: 30px;
+	line-height: 30px;
+
+}
+.cms-section .col-xs-6 .caption>div span{
+	padding-bottom: 5px;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border-radius: 16px;
+	background-color:#CB5977;
+	float: right;
+}
+
+.cms-section .percent-recommended{
+	display: none;
+	position:absolute;
+	top: 0px;
+/*	position: relative;
+*/ 	
+}
+ .cms-section .percent-recommended .recommended span{
+	font-size: 60px;
+}
+ .cms-section .percent-recommended .sub-title-full{
+	width:470px;
+	background-color :#C5C5C5;
+	position:absolute;
+	top: 390px;
+	color: #fff;
+}
+.cms-section .col-xs-6>a:hover .thumbnail .percent-recommended{
+	display: block;
+}
+.firstSec .inUp s{
+	font-size: 0.7em;
+	text-decoration: none;
+}
+.configuration{
+	width: 100%;
+	height: 900px;
+	position:relative;
+}
+.configuration .col-xs-12{
+	height: 700px;
+	background-size: cover;
+	background-position: -150px 0;
+
+}
+.firstImgbox{
+	background-image: url(../imgs/jeep/slide1-1.jpg);
+
+}
+.configurationText{
+	margin: auto;
+	width: 700px;
+	color: #E4AE3F;
+	text-align: center;
+	position:absolute;
+	top: 520px;
+	left: 300px
+}
+.configurationText h3{
+	color: #fff;
+}
+.container .col-xs-2,.container .col-xs-3{
+	text-align: center;
+	position:relative;
+}
+.triangle{
+	margin: auto;
+	width: 0;
+	height: 0;
+	border-top: 20px solid black;
+	border-left: 20px solid #00000000;
+	border-right: 20px solid #00000000;
+	border-bottom:20px solid #00000000;
+}
+.imgOp{
+	display: none;
+}
+
+.container-fluid{
+	padding-left: 0;
+	padding-right: 0;
+}
+.secondImgbox{
+	background-image: url(../imgs/jeep/slide3-1-1.jpg);
+}
+.btn{
+	position:relative;
+}
+/*切换路况摁扭*/
+.btn{
+	position:absolute;
+	top: 70px;
+	right: 150px;
+}
+.changeBtn1{
+	position:absolute;
+	left: 60px;
+	z-index: 2;
+}
+.changeBtn2{
+	position:absolute;
+	left: -60px;
+	top:170px;
+	z-index: 1;
+}
+
+
+
+
+

@@ -5,7 +5,7 @@ $(function(){
 	    navsearch=$(".navsearch");
 	$(window).scroll(function(){
 		var h=$(document).scrollTop();
-		console.log(h);	
+		// console.log(h);	
 		if(h>=120){
 			navto.css({"position":"fixed","top":"0px","left":"0px"});
 			navbox.css("height","80px");
@@ -21,7 +21,7 @@ $(function(){
 	$(".goTopBtn").click(function(){
 		$("html,body").animate({scrollTop:0},500)
 	})
-	var goTopBtn=$(".goTopBtn");
+    var goTopBtn=$(".goTopBtn");
     $(window).scroll(function(){
         var h=$(document).scrollTop();
         if(h>=1800){
@@ -48,5 +48,8 @@ $(function(){
             goTopBtn.hide();
         }
     })
-
+    $(".headlogo").click(function(){
+        console.log(1)
+        location.href="./index.html"
+    })
 })
