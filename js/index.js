@@ -1,5 +1,5 @@
 // <!-- Initialize Swiper -->
-// 轮魔图
+// 轮播图
 $(function(){
     var swiper = new Swiper('.swiper-container', {
         spaceBetween: 30,
@@ -22,7 +22,6 @@ $(function(){
         date2=$(".date2"),
         dateinput=$(".dateinput");
         placetxt.on("click",function(){
-            console.log(1);
         dateinput.animate({"width":"150px"},500)
         dateinput.css({"border":"1px solid red","background-color":"white","margin-right":"5px","padding":"12px 25px"})
         placetxt.css("margin-right","5px");
@@ -47,8 +46,28 @@ $(function(){
                 navbox.css("height","50px");
                 birdlogo.hide();
                 navsearch.hide();
-    }
-})
+        }
+    })
+//日期设置
+  $(function() {
+    $( "#from" ).datepicker({
+      defaultDate: "+1w",
+      changeMonth: true,
+      numberOfMonths: 1,
+      minDate: -0,
+      onClose: function( selectedDate ) {
+        $( "#to" ).datepicker( "option", "minDate", selectedDate );
+      }
+    });
+    $( "#to" ).datepicker({
+      defaultDate: "+1w",
+      changeMonth: true,
+      numberOfMonths: 1,
+      onClose: function( selectedDate ) {
+        $( "#from" ).datepicker( "option", "maxDate", selectedDate );
+      }
+    });
+  });
 // 视频部分
      var h=$(window).height(),
          w=$(window).width();
@@ -108,16 +127,16 @@ $(function(){
             goTopBtn.show();
             goTopBtn.css({
                 "position":"fixed",
-                "top" :"675px",
+                "bottom":"-50px",   
                 "left":"50%",
                 "transform":"translate(-50%,0)"
             })
         }
-        if(h>5900){
+        if(h>6300){
             goTopBtn.show();
             goTopBtn.css({
-                "position":"relative",
-                "top":"0px",    
+                "position":"absolute",
+                "bottom":"-50px",
                 "left":"20%",
                 // "transform":"translate(-50%,0)"  
             })
