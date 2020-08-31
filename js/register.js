@@ -228,6 +228,7 @@ $(function(){
             },
         },
     });
+
 // 热气球
     $(".projectimg").click(function(){
         console.log(1)

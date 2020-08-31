@@ -18,7 +18,7 @@ $(function(){
 	"<p style='margin:0;line-height:1.5;font-size:16px;text-indent:2em'>丽江金茂璞修雪山酒店——雪山畅享4天3晚套餐</p>" + 
 	"<p style='font-size:12px; color:gray;'>中国,丽江</p>"+
 	"<br>"+
-	"<a href=''>查看国内短假</a>"
+	"<a href='./hotel.html'>查看国内短假</a>"
 	"</div>";
 	var infoWindow = new BMap.InfoWindow(sContent);  
 	marker2.addEventListener("click", function(){          
@@ -37,7 +37,7 @@ $(function(){
 	"<p style='margin:0;line-height:1.5;font-size:16px;text-indent:2em'>丽江金茂璞修雪山酒店——雪山畅享4天3晚套餐</p>" + 
 	"<p style='font-size:12px; color:gray;'>中国,丽江</p>"+
 	"<br>"+
-	"<a href=''>查看国内短假</a>"
+	"<a href='./hotel.html'>查看国内短假</a>"
 	"</div>";
 	var infoWindow1 = new BMap.InfoWindow(sContent1);  
 	marker3.addEventListener("click", function(){          
@@ -56,7 +56,7 @@ $(function(){
 	"<p style='margin:0;line-height:1.5;font-size:16px;text-indent:2em'>丽江金茂璞修雪山酒店——雪山畅享4天3晚套餐</p>" + 
 	"<p style='font-size:12px; color:gray;'>中国,丽江</p>"+
 	"<br>"+
-	"<a href=''>查看国内短假</a>"
+	"<a href='./hotel.html'>查看国内短假</a>"
 	"</div>";
 	var infoWindow2 = new BMap.InfoWindow(sContent2);  
 	marker4.addEventListener("click", function(){          
@@ -75,7 +75,7 @@ $(function(){
 	"<p style='margin:0;line-height:1.5;font-size:16px;text-indent:2em'>丽江金茂璞修雪山酒店——雪山畅享4天3晚套餐</p>" + 
 	"<p style='font-size:12px; color:gray;'>中国,丽江</p>"+
 	"<br>"+
-	"<a href=''>查看国内短假</a>"
+	"<a href='./hotel.html'>查看国内短假</a>"
 	"</div>";
 	var infoWindow3 = new BMap.InfoWindow(sContent3);  
 	marker5.addEventListener("click", function(){          
