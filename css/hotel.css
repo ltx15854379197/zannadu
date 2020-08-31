@@ -194,8 +194,7 @@ body .full .fullbox{
 	width: 1000px;
 	height: 580px;
 	outline: none;
-	margin-top:30px;
-	margin-left: 200px;
+	margin:80px auto;
 	position:relative;
 }
 .full .swiper-container {
