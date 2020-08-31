@@ -130,4 +130,9 @@ $(function(){
 		$(".changeBtn2 img").attr(`src`,`imgs/jeep/pst_rd${t}.png`)
 		$(".secondImgbox").css("background-image",`url(imgs/jeep/slide3-1-${t}.jpg)`)
 	})
+
+	$(".headlogo").click(function(){
+        console.log(1)
+        location.href="./index.html"
+    })
 })

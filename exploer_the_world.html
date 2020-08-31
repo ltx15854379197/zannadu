@@ -2,25 +2,18 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>赞那度登入页面</title>
+	<title>探索世界</title>
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" href="plugin/bootstrap/css/bootstrap.css">
 	<script src="plugin/jquery-3.5.1.js"></script>
 	<script src="plugin/bootstrap/js/bootstrap.js"></script>
 	<link rel="stylesheet" href="css/common.css">
-	<link rel="stylesheet" href="css/register.css">
-	<link rel="stylesheet" href="css/logIn.css">
-	<!-- 表单验证插件 -->
-	<script src="plugin/jquery.validate.js"></script>
-	<script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
-	<script src="plugin/messages_zh.js"></script>
-
+	<link rel="stylesheet" href="plugin/swiper-bundle.css">
+	<link rel="stylesheet" href="css/exploer_the_world.css">
+	<!-- 轮播图 -->
+	
 </head>
 <body>
-	<div class="seek">
-		<div class="wechat"></div>
-		<div class="wetext">在线咨询</div>
-	</div>
 	<header>
 		<div class="headbox">
 		<div class="headbgc">
@@ -249,63 +242,197 @@
 		</div>
 		</nav>
 	</header>
-	<section>
-		<div class="secBox">
-			<div class="img"></div>
-			<div class="register container">
-				<div class="row firstRow">
-					<div class="col-xs-8">
-						<h3>ZANADU 登录</h3>
-					</div>
-					<div class="col-xs-4">
-						<a href="register.html">注册新用户</a>
-					</div>
-				</div>
-				<form action="" class="formBox">
-					<div class="row secondRow">
-						<div class="col-xs-12">
-							<input type="text" placeholder="请输入国家" name="state">
-						</div>
-					</div>
-					<div class="row secondRow">
-						<div class="col-xs-12">
-							<input type="text" placeholder="请输入手机号" name="tel">
-						</div>
-					</div>
-					<div class="row secondRow">
-						<div class="col-xs-12">
-							<input type="text" placeholder="请输入验证码" name="pwd">
-						</div>
-					</div>
-					<div id="deom">
-						<div id="slider">
-					        <div id="slider_bg"></div>
-					        <span id="label">>></span> <span id="labelTip">拖动滑块验证</span>
-					    </div>
-					</div>
-					<div class="row lastRow">
-						<div class="col-xs-12">
-							<input type="submit" value="注册">
-						</div>
-					</div>
-					<div class="row Row">
-						<div class="col-xs-12">
-							注册即代表同意 <a href="https://zanadu.cn/site/aboutUs.html"> 赞那度服务条款</a>
-						</div>
-					</div>
-					<div class="row Row">
-						<div class="col-xs-12">
-							其他账号登录 <a href="https://open.weixin.qq.com/connect/qrconnect?appid=wx75c97308633e8251&redirect_uri=https%3A%2F%2Fzanadu.cn%2Fuser%2FwechatAuthCallback.html&response_type=code&scope=snsapi_login&state=a98431ab2f4143d0efda66c3220b742f"><img src="imgs/register/微信.png" alt=""></a>
-							<a href="https://api.weibo.com/oauth2/authorize?client_id=1728075140&redirect_uri=https%3A%2F%2Fzanadu.cn%2Fuser%2FweiboAuthCallback.html&response_type=code###"><img src="imgs/register/微博.png" alt=""></a>
-							<a href=""><img src="imgs/register/邮箱.png" alt=""></a>
-						</div>
-					</div>
-				</form>
-				
+	<section class="firstSec">
+		<div class="swiper-container">
+		    <div class="swiper-wrapper">
+				<div class="swiper-slide"><img src="imgs/exploer_the_world/photo_50_142_614.jpg" alt=""></div>
+				<div class="swiper-slide"><img src="imgs/exploer_the_world/photo_50_142_615.jpg" alt=""></div>
+				<div class="swiper-slide"><img src="imgs/exploer_the_world/photo_50_142_616.jpg" alt=""></div>
 			</div>
+		    <!-- Add Pagination -->
+		    <div class="swiper-pagination"></div>
+		    <!-- Add Arrows -->
+		    <div class="swiper-button-next"></div>
+		    <div class="swiper-button-prev"></div>
 		</div>
+		<nav class="go">
+			<div>
+				<span>
+					地点 <select name="" id="">
+						<option value="">你想去哪里</option>
+						<option value="">澳大利亚</option>
+						<option value="">柬埔寨</option>
+						<option value="">古巴</option>
+					</select>
+				</span>
+				<span>
+					兴趣
+					<select name="" id="">
+						<option value="">兴趣标签</option>
+						<option value="">自然田园</option>
+						<option value="">历史遗迹</option>
+						<option value="">海滩海景</option>
+					</select>
+				</span>
+			</div>
+		</nav>
 	</section>
 	
+	<section class="secondSec">
+		<div class="container cms-section">
+			<div class="row firstRow">
+				<div class="col-xs-2"></div>
+				<div class="col-xs-8">
+					<a href="Personal_Tailor.html">
+						<div class="firstRow-log"><img src="https://zanadu.cn/assets/9c31fce6/public/images/logo/zanadu/vertical-white.png" alt=""></div>
+						<div class="firstRow-text">赞那度会员专项服务
+							<h3>私人定制</h3>
+						</div>
+					</a>
+				</div>
+				<div class="col-xs-2"></div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12">
+					<a href="hotel.html">
+						<div class="thumbnail">
+					     	<img src="./imgs/exploer_the_world/key5_3635_bundle.jpg" alt="...">
+					     	<div class="caption">
+					        	<p>一探千年古城河内的文物古迹，乘船游览3600多座山石岛屿的下河湾，在暹粒仰望精美迷人的微笑</p>
+					        	<div>
+					        		￥17,500 <span>起/单人价格</span>
+					        	</div>
+					     	</div>
+					    </div>
+				    </a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12">
+					<a href="hotel.html">
+						<div class="thumbnail">
+					     	<img src="./imgs/exploer_the_world/key5_3486_bundle.jpg" alt="...">
+					     	<div class="caption">
+					        	<p>极具特色的东南亚异域风情，出乎想象的奢华体验，这才是您不容错过的柬埔寨与老挝。</p>
+					        	<div>
+					        		￥17,900 <span>起/单人价格</span>
+					        	</div>
+					     	</div>
+					    </div>
+				    </a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12">
+					<a href="hotel.html">
+						<div class="thumbnail">
+					     	<img src="./imgs/exploer_the_world/key5_3635_bundle.jpg" alt="...">
+					     	<div class="caption">
+					        	<p>一探千年古城河内的文物古迹，乘船游览3600多座山石岛屿的下河湾，在暹粒仰望精美迷人的微笑</p>
+					        	<div>
+					        		￥17,500 <span>起/单人价格</span>
+					        	</div>
+					     	</div>
+					    </div>
+				    </a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12">
+					<a href="hotel.html">
+						<div class="thumbnail">
+					     	<img src="./imgs/exploer_the_world/key5_3486_bundle.jpg" alt="...">
+					     	<div class="caption">
+					        	<p>极具特色的东南亚异域风情，出乎想象的奢华体验，这才是您不容错过的柬埔寨与老挝。</p>
+					        	<div>
+					        		￥17,900 <span>起/单人价格</span>
+					        	</div>
+					     	</div>
+					    </div>
+				    </a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12">
+					<a href="hotel.html">
+						<div class="thumbnail">
+					     	<img src="./imgs/exploer_the_world/key5_3635_bundle.jpg" alt="...">
+					     	<div class="caption">
+					        	<p>一探千年古城河内的文物古迹，乘船游览3600多座山石岛屿的下河湾，在暹粒仰望精美迷人的微笑</p>
+					        	<div>
+					        		￥17,500 <span>起/单人价格</span>
+					        	</div>
+					     	</div>
+					    </div>
+				    </a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12">
+					<a href="hotel.html">
+						<div class="thumbnail">
+					     	<img src="./imgs/exploer_the_world/key5_3486_bundle.jpg" alt="...">
+					     	<div class="caption">
+					        	<p>极具特色的东南亚异域风情，出乎想象的奢华体验，这才是您不容错过的柬埔寨与老挝。</p>
+					        	<div>
+					        		￥17,900 <span>起/单人价格</span>
+					        	</div>
+					     	</div>
+					    </div>
+				    </a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12">
+					<a href="hotel.html">
+						<div class="thumbnail">
+					     	<img src="./imgs/exploer_the_world/key5_3635_bundle.jpg" alt="...">
+					     	<div class="caption">
+					        	<p>一探千年古城河内的文物古迹，乘船游览3600多座山石岛屿的下河湾，在暹粒仰望精美迷人的微笑</p>
+					        	<div>
+					        		￥17,500 <span>起/单人价格</span>
+					        	</div>
+					     	</div>
+					    </div>
+				    </a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12">
+					<a href="hotel.html">
+						<div class="thumbnail">
+					     	<img src="./imgs/exploer_the_world/key5_3486_bundle.jpg" alt="...">
+					     	<div class="caption">
+					        	<p>极具特色的东南亚异域风情，出乎想象的奢华体验，这才是您不容错过的柬埔寨与老挝。</p>
+					        	<div>
+					        		￥17,900 <span>起/单人价格</span>
+					        	</div>
+					     	</div>
+					    </div>
+				    </a>
+				</div>
+			</div>
+			<div class="row firstRow">
+				<div class="col-xs-2"></div>
+				<div class="col-xs-8">
+					<a href="Personal_Tailor.html">
+						<div class="firstRow-log"><img src="https://zanadu.cn/assets/9c31fce6/public/images/logo/zanadu/vertical-white.png" alt=""></div>
+						<div class="firstRow-text">赞那度会员专项服务
+							<h3>私人定制</h3>
+						</div>
+					</a>
+				</div>
+				<div class="col-xs-2"></div>
+			</div>
+		</div>
+	<div class="goTopBtnBox">
+		<div class="goTopBtn" ><span>返回顶部</span></div>
+	</div>	
+	</section>
+	<div class="seek">
+		<div class="wechat"></div>
+		<div class="wetext">在线咨询</div>
+	</div>
 	<footer class="">
 		<div class="col3 footer-padding container">
 			<ul class="no-bullets">
@@ -371,7 +498,27 @@
 			</div>
 		</div>
 	</footer>
-	<script src="js/common.js"></script>
-	<script src="js/register.js"></script>
+	<script src="js/exploer_the_world.js"></script>
+	<!-- 轮播图 -->
+	<script src="plugin/swiper-bundle.js"></script>
+	<script>
+    var swiper = new Swiper('.swiper-container', {
+		spaceBetween: 30,
+		centeredSlides: true,
+		loop: true,
+		autoplay: {
+		delay: 2500,
+		disableOnInteraction: false,
+		},
+		pagination: {
+		el: '.swiper-pagination',
+		clickable: true,
+		},
+		navigation: {
+		nextEl: '.swiper-button-next',
+		prevEl: '.swiper-button-prev',
+		},
+    });
+  </script>
 </body>
 </html>

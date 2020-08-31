@@ -64,4 +64,9 @@ $(function(){
             goTopBtn.hide();
         }
     })
+    
+    $(".headlogo").click(function(){
+        console.log(1)
+        location.href="./index.html"
+    })
 })

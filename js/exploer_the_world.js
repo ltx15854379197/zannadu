@@ -1,25 +1,8 @@
 $(function(){
-$(".thumbnail").mouseover (function(){
-        // console.log(1)
-        var _this=$(this)
-        var inDwon=_this.children(".inDwon")
-        var inUp=_this.children(".inUp")
-        $(inDwon).css("display","none")
-        $(inUp).css("display","block")
-    })
-    $(".thumbnail").mouseout (function(){
-        var _this=$(this)
-        var inDwon=_this.children(".inDwon")
-        var inUp=_this.children(".inUp")
-        $(inUp).css("display","none")
-        $(inDwon).css("display","block")
-        
-    })
-// 返回顶部
- $(".goTopBtn").click(function(){
+    $(".goTopBtn").click(function(){
         $("html,body").animate({scrollTop:0},500)
     })
-     var goTopBtn=$(".goTopBtn");
+	var goTopBtn=$(".goTopBtn");
     $(window).scroll(function(){
         var h=$(document).scrollTop();
         if(h>=1800){
@@ -32,7 +15,7 @@ $(".thumbnail").mouseover (function(){
                 "transform":"translate(-50%,0)"
             })
         }
-        if(h>2500){
+        if(h>3000){
             goTopBtn.show();
             goTopBtn.css({
                 "position":"relative",
@@ -44,6 +27,20 @@ $(".thumbnail").mouseover (function(){
         }
         if(h<1800){
             goTopBtn.hide();
+        }
+    })
+
+    var navto=$(".go"),
+        navbox=$(".go div")
+    $(window).scroll(function(){
+        var h=$(document).scrollTop();
+        console.log(h); 
+        if(h>=690){
+            navto.css({"position":"fixed","top":"0px","left":"0px"});
+            navbox.css("height","80px");
+        }else{
+            navto.css({"position":"absolute","top":""});
+            navbox.css("height","50px");
         }
     })
 
