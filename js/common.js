@@ -7,12 +7,12 @@ $(function(){
 		var h=$(document).scrollTop();
 		// console.log(h);	
 		if(h>=120){
-			navto.css({"position":"fixed","top":"0px","left":"0px"});
+			navto.css({"position":"fixed","top":"0px","left":"0px","z-index","10"});
 			navbox.css("height","80px");
 			birdlogo.show();
 			navsearch.show();
 		}else{
-			navto.css({"position":"absolute","top":""});
+			navto.css({"position":"absolute","top":"","z-index","10"});
 			navbox.css("height","50px");
 			birdlogo.hide();
 			navsearch.hide();
